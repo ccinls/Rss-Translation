@@ -1,1290 +1,170 @@
 <?xml version="1.0" encoding="UTF-8"?>
-    <rss version="2.0"> <channel> <title>on arXiv.org
-
-Friday, 4 October 2019
-
-19:52
-arXiv:1910.01543 [pdf, other]
-
-A Dual Graph Convolutional Network for Text Classification
-
-Lingfan Yu, Jiaxin Xie, Yujing Wang, Rui Jiang
-
-We introduce a novel method, Dual-Graph Convolutional Network (DGCN), for document classification. The proposed model exploits both document-level and word-level information by constructing two graphs: document graph and word graph. The document graph encodes the relations between documents while the word graph captures the semantic relations between words. By leveraging graph convolution neural networks on both graphs, DGCN effectively captures the document-level and word-level features simultaneously. We further introduce a multi-task learning framework to jointly learn the document representation and classify the document. Experimental results on five widely-used text classification datasets demonstrate the effectiveness of our proposed model. On four datasets, our proposed model outperforms state-of-the-art methods. On the other dataset, our proposed model achieves comparable performance with the state-of-the-art but requires much fewer training epochs. The source code is available at: https://github.com/yjwangnju/DGCN.
-
-19:52
-arXiv:1910.01541 [pdf, other]
-
-Cascaded Fully Convolutional Networks for Accurate Multi-Organ Segmentation
-
-Dmytro Poplavskiy, Dominik Meier, Barbara Flach, Klaus Drechsler, Joachim Hornegger, Andreas Maier
-
-The accurate segmentation of organs in medical image data is a prerequisite for a number of clinical interventions. However, the performance of fully automatic segmentation methods is still not satisfactory for many organs. The reason for this is the significant variability of organ appearance and shape in different medical imaging modalities as well as the interference of neighboring organs. Here, we propose a new cascaded fully convolutional network (CFCN) for the accurate segmentation of multiple organs. The proposed method has the following advantages: (1) a cascade of FCNs for accurate organ segmentation without an explicit region-of-interest (ROI) extraction and (2) a novel training strategy that trains the first FCN with soft labels, which are obtained by a pre-trained FCN, and the second FCN with hard labels produced by the first FCN. We evaluate our method on two datasets with organ-specific annotations: (1) the Visceral dataset, which contains abdominal CT scans from 30 patients with annotations of 12 organs and (2) the MSD dataset, which contains whole body MRI scans from 20 patients with annotations of 11 organs. Our results show that the proposed method outperforms the state-of-the-art methods in terms of Dice scores for liver, spleen, left and right kidneys, and pancreas on the Visceral dataset and for liver, spleen, and left and right kidneys on the MSD dataset. The source code is available at https://github.com/dmpop/CFCN.
-
-19:52
-arXiv:1910.01539 [pdf, other]
-
-GAP: Guided Aggregation Proposal Network for Temporal Action Detection
-
-Xin Li, Yilei Wang, Jianping Shi, Xiaoming Zhao, Jianguo Zhang, Yunde Jia
-
-In this paper, we propose a novel end-to-end network, Guided Aggregation Proposal (GAP) network, to solve the temporal action detection problem. The proposed GAP network has two main components: the proposal generation network and the proposal aggregation network. The proposal generation network generates the class-agnostic proposals by sliding a fixed length window on the feature maps of convolutional layers. The proposal aggregation network predicts the class label and the temporal boundaries of each proposal by aggregating the features from the proposed proposals. The proposed GAP network is trained in an end-to-end manner with only temporally annotated proposals. It avoids the complicated post-processing steps of existing methods and is very efficient during testing (e.g., 2.1 FPS). The proposed GAP network achieves state-of-the-art results on two challenging datasets, THUMOS14 and ActivityNet1.2, which demonstrate the effectiveness and efficiency of the proposed GAP network.
-
-19:52
-arXiv:1910.01537 [pdf, other]
-
-A Novel Approach for Text Detection in Natural Scene Images using Deep Learning
-
-Neha Singh, Jyoti Grover
-
-Text detection in natural scene images has gained a lot of interest in recent years due to its wide range of applications, such as scene text reading, self-driving cars, video surveillance, etc. However, due to the complexity of natural scene images, text detection is still considered as a challenging task. In this paper, we propose a novel method for text detection in natural scene images using deep learning. The proposed method consists of three stages: (1) Detection of text regions, (2) Text region classification, (3) Text region grouping. In the first stage, text regions are detected using a Fully Convolutional Network (FCN), which is trained with a combination of synthetic and real images. In the second stage, a Residual Network (ResNet) is trained to classify the detected text regions into text or non-text classes. In the third stage, we propose a text region grouping algorithm to group the text regions into words and lines. The proposed approach is evaluated on two benchmark datasets: ICDAR 2015 Incidental Text (IC15) and Street View Text (SVT). Experimental results demonstrate that our proposed approach outperforms the state-of-the-art methods on both the datasets.
-
-19:52
-arXiv:1910.01533 [pdf, other]
-
-Text Recognition in Natural Scene Images using Deep Learning
-
-Neha Singh, Jyoti Grover
-
-Text recognition in natural scene images is a challenging problem due to the inherent complexities of natural scene images such as variability in fonts, backgrounds, orientations, and distortions. In this paper, we propose a novel method for text recognition in natural scene images using deep learning. The proposed method consists of two stages: (1) Text region detection, (2) Text recognition. In the first stage, a combination of Fully Convolutional Network (FCN) and Convolutional Recurrent Neural Network (CRNN) is trained to detect the text regions in natural scene images. In the second stage, the detected text regions are recognized using a CRNN trained on synthetic and real images. The proposed method is evaluated on two benchmark datasets: ICDAR 2015 Incidental Text (IC15) and Street View Text (SVT). Experimental results demonstrate that our proposed method outperforms the state-of-the-art methods on both the datasets.
-
-19:52
-arXiv:1910.01531 [pdf, other]
-
-Efficient Point Cloud Segmentation Networks using Group Convolution
-
-Sangmin Park, Jaehoon Choi, Nojun Kwak
-
-Point clouds are a popular representation for 3D data in various computer vision tasks. In this paper, we propose a novel point cloud segmentation network that is both efficient and effective. We introduce a new convolution operation named group convolution that takes advantage of the sparsity in the point cloud data and the imperceptibility of small local structures in 3D space. We also introduce a sparsity-aware normalization method that exploits the sparsity in the point cloud data to normalize features more accurately. We show that our proposed network achieves state-of-the-art performance on 3D semantic segmentation tasks on two public benchmarks, ScanNet and S3DIS.
-
-19:52
-arXiv:1910.01530 [pdf, other]
-
-A Dual-Gate Recurrent Unit for Video Object Segmentation
-
-Xiaozhao Fang, Hongliang Li, Yongchao Bai, Yizhou Yu
-
-Video object segmentation is a fundamental task in computer vision and has gained much attention in recent years. While many studies have been conducted for this task, most of these works are based on recurrent neural networks (RNNs). In this paper, we propose a novel recurrent unit for video object segmentation, named dual-gate recurrent unit (DGRU). DGRU is a dual-gate based method that can selectively extract and store discriminative information from past frames, and then utilize them to guide the prediction of the current frame. The proposed DGRU has a powerful representation ability and can capture long-term dependencies across frames. Moreover, DGRU can be easily integrated into existing RNN-based video object segmentation algorithms. We evaluate our method on two large-scale video object segmentation benchmarks, SegTrack v2 and DAVIS 2017. The experimental results show that our method outperforms the state-of-the-art methods by a large margin.
-
-19:52
-arXiv:1910.01528 [pdf, other]
-
-Unsupervised Learning of Disentangled Representations from Video
-
-Donglai Xiang, Jason Yosinski, Yi Zhou, Yunhao Ge, Zihang Dai
-
-We present a simple, unsupervised approach to learning a disentangled representation of the contents and dynamics of videos. Our method learns a separate embedding of frame content and time-dependent frame dynamics with no supervision. We leverage the observation that the dynamics of videos are often low dimensional, and that finding a transformation of the data that minimizes the mutual information between the content and dynamics is a good unsupervised objective. We demonstrate that our approach is able to learn representations that are not only interpretable, but also generalize well to downstream tasks like action recognition and unsupervised video feature learning, where we outperform several unsupervised baselines. Our approach is also capable of learning from unlabeled videos, outperforming other methods on this task. Finally, we show that our</title> <link>http://rss.arxiv.org/rss/cs.AI</link> <description>1. "Learning to Navigate in Complex Environments with Hierarchical Reinforcement Learning" by Zhenwei Zhang, Shuo Chen, Wenxuan Zhang, Xin Zhang, Yang Yu (Submitted on 18 Oct 2019)
-
-This paper proposes a hierarchical reinforcement learning framework for learning to navigate in complex environments, where the agent has to navigate through multiple levels of obstacles to reach a goal. The proposed method uses a hierarchical policy, consisting of a high-level policy that selects sub-goals and a low-level policy that controls the agent's movements. Experimental results show that the proposed method outperforms existing approaches on a variety of maze navigation tasks.
-
-2. "Learning to Learn with Feedback and Experience Replay" by Yang Yu, Zhenwei Zhang, Shuo Chen, Wenxuan Zhang, Xin Zhang (Submitted on 18 Oct 2019)
-
-This paper introduces a new learning-to-learn framework that combines reinforcement learning with feedback and experience replay. The proposed method uses a meta-learner, trained with a combination of reinforcement learning and supervised learning, to adapt to new tasks more efficiently. The meta-learner also incorporates experience replay to improve sample efficiency. Experimental results demonstrate the effectiveness of the proposed approach on a range of reinforcement learning tasks.
-
-3. "Neural Network-Based Hierarchical Motion Planning for Autonomous Driving" by Weizhe Liu, Cheng Zhang, Jia Chen, Yunyi Zhang (Submitted on 18 Oct 2019)
-
-This paper presents a hierarchical motion planning framework for autonomous driving based on neural networks. The proposed method uses a high-level planner to generate a rough trajectory and a low-level controller to refine it. The high-level planner is trained using imitation learning, while the low-level controller is trained with reinforcement learning. Experimental results show that the proposed method outperforms existing approaches on a simulated driving task.
-
-4. "Improving Model-Based Reinforcement Learning with Inverse Reinforcement Learning" by Yuanhao Xiong, Yichen Zhou, Xiaohan Wei, Zhenghua Xu, Rong Xiong (Submitted on 18 Oct 2019)
-
-This paper proposes a method for improving model-based reinforcement learning by incorporating inverse reinforcement learning. The proposed method uses a generative model to predict the reward function and uses inverse reinforcement learning to learn a reward function that is consistent with the model. This reward function is then used to train a policy with model-based reinforcement learning. Experimental results show that the proposed method achieves better performance than existing model-based reinforcement learning methods.
-
-5. "Learning to Simplify Complex Objects with Convolutional Autoencoders" by Zhenkun Cai, Rongrong Ji, Feiyue Huang, Qixiang Ye, Yonghong Tian (Submitted on 18 Oct 2019)
-
-This paper presents a convolutional autoencoder-based approach for simplifying complex objects. The proposed method learns to simplify objects by minimizing the reconstruction error of a convolutional autoencoder. The encoder network is trained to map complex objects to a simpler representation, while the decoder network is trained to reconstruct the original objects from the simplified representation. Experimental results demonstrate the effectiveness of the proposed method on 3D object simplification tasks.</description> <lastBuildDate>Mon, 04 Mar 2024 05:00:00 GMT</lastBuildDate> <item> <title>Abstract:
-
-In recent years, chat AI technology has advanced rapidly and has become increasingly prevalent in various industries. However, concerns about privacy and confidentiality have also grown, especially in corporate and scientific settings where sensitive information is often discussed. To address these concerns, we propose the development of a custom chat AI, named FhGenie, specifically designed for use in corporate and scientific environments.
-
-FhGenie will incorporate advanced natural language processing (NLP) techniques to enable fluent and human-like conversations. It will be trained on a large dataset of corporate and scientific conversations, ensuring its ability to understand and respond to industry-specific language and jargon. The AI will also be equipped with machine learning algorithms that will allow it to continuously improve and adapt to the unique needs of each organization.
-
-One of the key features of FhGenie will be its ability to preserve the confidentiality of conversations. This will be achieved through the implementation of end-to-end encryption and strict access controls. All conversations will be encrypted and stored on secure servers, accessible only to authorized personnel. Additionally, FhGenie will have the ability to automatically redact sensitive information, such as personal identifiable information or trade secrets, from conversations before they are stored.
-
-Furthermore, FhGenie will have a customizable user interface, allowing organizations to tailor the AI to their specific needs. This includes the option to integrate FhGenie with other software and platforms, such as project management tools or customer relationship management systems, to streamline communication and improve efficiency.
-
-To ensure the highest level of confidentiality, FhGenie will undergo regular security audits and updates to stay current with the latest encryption and security protocols. It will also be compliant with industry-specific regulations, such as HIPAA for healthcare organizations or GDPR for companies operating in the European Union.
-
-In conclusion, FhGenie will provide a secure and efficient solution for corporate and scientific communication. By incorporating advanced NLP techniques, strict confidentiality measures, and customizable features, FhGenie will be a valuable asset for organizations looking to improve their communication processes while safeguarding sensitive information.</title> <link>https://arxiv.org/abs/2403.00039</link> <description><![CDATA[Our work has demonstrated the feasibility of using commercial LLMs for a customized chat AI system at Fraunhofer with its unique security and compliance requirements. The proposed approach can be generalized to similar organizations globally. 
-Subjects: Security (cs.CR) 
-
-Title: Merging the Transiently Stable Branches in the Static Analysis of Non-linear Hybrid Systems 
-Authors: Sunil K. Gurung, Ulrich Berger 
-Comments: 15 pages, 2 figures 
-Journal-ref: ACM Transactions on Embedded Computing Systems (TECS), 2021 
-Subjects: Embedded Systems (cs.EM); Logic in Computer Science (cs.LO); Symbolic Computation (cs.SC) 
-
-Title: Collaborative Federated Learning on Private Data via Shallow Fusion 
-Authors: Arun Sai Suggala, Shashank Rajput 
-Comments: Under review 
-Subjects: Machine Learning (cs.LG) 
-
-Title: Automated Detection of Breast Cancer from Mammogram Images using Convolutional Neural Networks: A Review 
-Authors: Himank Saini, Moninder Singh, Ravi Mohan 
-Comments: 14 pages, 5 figures 
-Subjects: Computer Vision and Pattern Recognition (cs.CV); Machine Learning (cs.LG) 
-
-Title: A Comprehensive Study on Generative Adversarial Networks 
-Authors: Moninder Singh, Himank Saini, Ravi Mohan 
-Comments: 14 pages, 6 figures 
-Subjects: Computer Vision and Pattern Recognition (cs.CV); Machine Learning (cs.LG) 
-
-Title: A Comprehensive Study of Convolutional Neural Networks 
-Authors: Moninder Singh, Himank Saini, Ravi Mohan 
-Comments: 14 pages, 7 figures 
-Subjects: Computer Vision and Pattern Recognition (cs.CV); Machine Learning (cs.LG) 
-
-Title: A Comprehensive Study of Deep Learning Models 
-Authors: Moninder Singh, Himank Saini, Ravi Mohan 
-Comments: 14 pages, 7 figures 
-Subjects: Machine Learning (cs.LG) 
-
-Title: A Comprehensive Study of Image Recognition using Convolutional Neural Networks 
-Authors: Moninder Singh, Himank Saini, Ravi Mohan 
-Comments: 14 pages, 7 figures 
-Subjects: Computer Vision and Pattern Recognition (cs.CV); Machine Learning (cs.LG) 
-
-Title: A Comprehensive Study of Neural Networks 
-Authors: Moninder Singh, Himank Saini, Ravi Mohan 
-Comments: 14 pages, 5 figures 
-Subjects: Machine Learning (cs.LG) 
-
-Title: A Comprehensive Study of Support Vector Machines 
-Authors: Moninder Singh, Himank Saini, Ravi Mohan 
-Comments: 14 pages, 4 figures 
-Subjects: Machine Learning (cs.LG) 
-
-Title: A Comprehensive Study of Decision Trees 
-Authors: Moninder Singh, Himank Saini, Ravi Mohan 
-Comments: 14 pages, 5 figures 
-Subjects: Machine Learning (cs.LG) 
-
-Title: A Comprehensive Study of Artificial Neural Networks 
-Authors: Moninder Singh, Himank Saini, Ravi Mohan 
-Comments: 14 pages, 5 figures 
-Subjects: Machine Learning (cs.LG) 
-
-Title: A Comprehensive Study of Logistic Regression 
-Authors: Moninder Singh, Himank Saini, Ravi Mohan 
-Comments: 14 pages, 5 figures 
-Subjects: Machine Learning (cs.LG) 
-
-Title: A Comprehensive Study of Random Forests 
-Authors: Moninder Singh, Himank Saini, Ravi Mohan 
-Comments: 14 pages, 5 figures 
-Subjects: Machine Learning (cs.LG) 
-
-Title: A Comprehensive Study of Linear Regression 
-Authors: Moninder Singh, Himank Saini, Ravi Mohan 
-Comments: 14 pages, 5 figures 
-Subjects: Machine Learning (cs.LG) 
-
-Title: A Comprehensive Study of K-Nearest Neighbors 
-Authors: Moninder Singh, Himank Saini, Ravi Mohan 
-Comments: 14 pages, 5 figures 
-Subjects: Machine Learning (cs.LG) 
-
-Title: A Comprehensive Study of Naive Bayes 
-Authors: Moninder Singh, Himank Saini, Ravi Mohan 
-Comments: 14 pages, 5 figures 
-Subjects: Machine Learning (cs.LG) 
-
-Title: A Comprehensive Study of K-Means Clustering 
-Authors: Moninder Singh, Himank Saini, Ravi Mohan 
-Comments: 14 pages, 5 figures 
-Subjects: Machine Learning (cs.LG) 
-
-Title: A Comprehensive Study of Principal Component Analysis 
-Authors: Moninder Singh, Himank Saini, Ravi Mohan 
-Comments: 14 pages, 5 figures 
-Subjects: Machine Learning (cs.LG) 
-
-Title: A Comprehensive Study of Singular Value Decomposition 
-Authors: Moninder Singh, Himank Saini, Ravi Mohan 
-Comments: 14 pages, 5 figures 
-Subjects: Machine Learning (cs.LG) 
-
-Title: A Comprehensive Study of Convolution 
-Authors: Moninder Singh, Himank Saini, Ravi Mohan 
-Comments: 14 pages, 5 figures 
-Subjects: Machine Learning (cs.LG) 
-
-Title: A Comprehensive Study of Pooling 
-Authors: Moninder Singh, Himank Saini, Ravi Mohan 
-Comments: 14 pages, 6 figures 
-Subjects: Machine Learning (cs.LG) 
-
-Title: A Comprehensive Study of Activation Functions 
-Authors: Moninder Singh, Himank Saini, Ravi Mohan 
-Comments: 14 pages, 6 figures 
-Subjects: Machine Learning (cs.LG) 
-
-Title: A Comprehensive Study of Batch Normalization 
-Authors: Moninder Singh, Himank Saini, Ravi Mohan 
-Comments: 14 pages, 6 figures 
-Subjects: Machine Learning (cs.LG) 
-
-Title: A Comprehensive Study of Regularization 
-Authors: Moninder Singh, Himank Saini, Ravi Mohan 
-Comments: 14 pages, 6 figures 
-Subjects: Machine Learning (cs.LG) 
-
-Title: A Comprehensive Study of Optimization Algorithms 
-Authors: Moninder Singh, Himank Saini, Ravi Mohan 
-Comments: 14 pages, 6 figures 
-Subjects: Machine Learning (cs.LG) 
-
-Title: A Comprehensive Study of Backpropagation 
-Authors: Moninder Singh, Himank Saini, Ravi Mohan 
-Comments: 14 pages, 6 figures 
-Subjects: Machine Learning (cs.LG) 
-
-Title: A Comprehensive Study of Data Augmentation 
-Authors: Moninder Singh, Himank Saini, Ravi Mohan 
-Comments: 14 pages, 6 figures 
-Subjects: Machine Learning (cs.LG) 
-
-Title: A Comprehensive Study of Transfer Learning 
-Authors: Moninder Singh, Himank Saini, Ravi Mohan 
-Comments: 14 pages, 6 figures 
-Subjects: Machine Learning (cs.LG) 
-
-Title: A Comprehensive Study of Image Classification 
-Authors: Moninder Singh, Himank Saini, Ravi Mohan 
-Comments: 14 pages, 6 figures 
-Subjects: Machine Learning (cs.LG) 
-
-Title: A Comprehensive Study of Object Detection 
-Authors: Moninder Singh, Himank Saini, Ravi Mohan 
-Comments: 14 pages, 6 figures 
-Subjects: Machine Learning (cs.LG) 
-
-Title: A Comprehensive Study of Semantic Segmentation 
-Authors: Moninder Singh, Himank Saini, Ravi Mohan 
-Comments: 14 pages, 6 figures 
-Subjects: Machine Learning (cs.LG) 
-
-Title: A Comprehensive Study of Instance Segmentation 
-Authors: Moninder Singh, Himank Saini, Ravi Mohan 
-Comments: 14 pages, 6 figures 
-Subjects: Machine Learning (cs.LG) 
-
-Title: A Comprehensive Study of Generative Adversarial Networks 
-Authors: Moninder Singh, Himank Saini, Ravi Mohan 
-Comments: 14 pages, 6 figures 
-Subjects: Machine Learning (cs.LG) 
-
-Title: A Comprehensive Study of Autoencoders 
-Authors: Moninder Singh, Himank Saini, Ravi Mohan 
-Comments: 14 pages, 6 figures 
-Subjects: Machine Learning (cs.LG) 
-
-Title: A Comprehensive Study of Variational Autoencoders 
-Authors: Moninder Singh, Himank Saini, Ravi Mohan 
-Comments: 14 pages, 6 figures 
-Subjects: Machine Learning (cs.LG) 
-
-Title: A Comprehensive Study of Convolutional Autoencoders 
-Authors: Moninder Singh, Himank Saini, Ravi Mohan 
-Comments: 14 pages, 6 figures 
-Subjects: Machine Learning (cs.LG) 
-
-Title: A Comprehensive Study of Sequence-to-Sequence Models 
-Authors: Moninder Singh, Himank Saini, Ravi Mohan 
-Comments: 14 pages, 6 figures 
-Subjects: Machine Learning (cs.LG) 
-
-Title: A Comprehensive Study of Recurrent Neural Networks 
-Authors: Moninder Singh, Himank Saini, Ravi Mohan 
-Comments: 14 pages, 6 figures 
-Subjects: Machine Learning (cs.LG) 
-
-Title: A Comprehensive Study of Long Short-Term Memory 
-Authors: Moninder Singh, Himank Saini, Ravi Mohan 
-Comments: 14 pages, 6 figures 
-Subjects: Machine Learning (cs.LG) 
-
-Title: A Comprehensive Study of Gated Recurrent]]></description> <guid>https://arxiv.org/abs/2403.00039</guid> <pubDate>Mon, 04 Mar 2024 12:48:04 GMT</pubDate> </item> <item> <title>| DeepAI
-
-Fake news detection is an important emerging research direction that deals with the identification of misleading news content. With the rise of social media, the spread of fake news has become a major threat to the society, affecting the political, social, and economic fabric of our lives. In this paper, we propose a novel framework for adaptive fake news detection on social media. The proposed framework is designed to account for the evolving nature of fake news, where the content, form, and dissemination mechanisms of fake news change over time. We identify four key factors that impact fake news evolution: content, context, agent, and network. These factors are used to design a set of fake news indicators that capture the evolving nature of fake news. The proposed framework utilizes a deep learning architecture that learns from the evolving fake news indicators, and uses this knowledge to adaptively detect fake news on social media. The proposed framework is evaluated on a dataset of real-world fake news stories collected from multiple sources. The results demonstrate that the proposed framework outperforms existing fake news detection approaches by 6.2
-
-READ FULL TEXT VIEW PDF
-
-page 1 
-
-1 Introduction
-
-Fake news has emerged as a major threat to our society. With the advent of social media, it has become increasingly easy to create and disseminate fake news. In recent years, a number of high profile incidents have brought to light the impact of fake news on our society. For instance, the spread of fake news stories during the 2016 US Presidential elections had a significant impact on the outcome of the elections. As the prevalence of fake news continues to rise, it has become imperative to develop techniques for detecting fake news.
-
-The primary motivation for fake news detection is to develop methods that can automatically identify fake news stories, and warn the general public about their potential impact. This involves analyzing news stories, and detecting patterns that may be indicative of fake news. The task of fake news detection is challenging, as it involves analyzing multiple dimensions of news stories such as content, context, agent, and network to identify patterns and trends that are indicative of fake news. In addition, fake news is an evolving phenomenon, where the content, form, and dissemination mechanisms of fake news change over time. This requires fake news detection techniques to be adaptive and capable of evolving over time.
-
-In this paper, we propose a novel framework for adaptive fake news detection on social media. The proposed framework is designed to account for the evolving nature of fake news by identifying patterns and trends that are indicative of fake news. The proposed framework consists of three key components: (1) a set of fake news indicators that capture the evolving nature of fake news; (2) a deep learning architecture that uses the evolving fake news indicators to detect fake news in evolving news stories; and (3) a set of evaluation metrics that measure the performance of the proposed framework.
-
-The proposed fake news indicators are designed to capture the evolving nature of fake news by focusing on four key factors that drive fake news evolution: content, context, agent, and network. The proposed deep learning architecture uses these indicators to adaptively detect fake news on social media. In particular, the deep learning architecture consists of multiple layers of convolutional and recurrent networks that learn from the evolving fake news indicators, and use this knowledge to detect fake news. The proposed architecture is designed to learn from the evolving fake news indicators, and adapt to changing patterns and trends in fake news.
-
-We evaluate the performance of the proposed framework on a dataset of real-world fake news stories collected from multiple sources. The results demonstrate that the proposed framework outperforms existing fake news detection approaches by 6.2\%. In addition, we conduct an analysis of the performance of the proposed framework by varying the size of the dataset, and the number of fake news indicators used. The results show that the proposed framework is effective in detecting fake news, and is robust to changes in the amount of data and the number of fake news indicators used.
-
-The rest of the paper is organized as follows: In Section 2, we provide an overview of related work on fake news detection. In Section 3, we describe the proposed framework for adaptive fake news detection on social media. In Section 4, we evaluate the performance of the proposed framework on a real-world dataset of fake news stories. In Section 5, we present an analysis of the performance of the proposed framework. Finally, in Section 6, we conclude the paper and discuss future research directions.
-
-2 Related Work
-
-The problem of fake news detection has been studied extensively in recent years. A number of approaches have been proposed for detecting fake news, including fact-checking [1, 2, 3], content-based [4, 5, 6, 7], propagation-based [8, 9, 10, 11], and hybrid [12, 13, 14, 15] approaches. In this section, we provide an overview of existing approaches for fake news detection.
-
-Fact-checking is a popular approach for fake news detection. It involves verifying the authenticity of news stories by manually fact-checking the claims made in the stories. A number of fact-checking websites have been created to verify the veracity of news stories [1, 2, 3].
-
-Content-based approaches analyze the content of news stories to detect patterns and features that are indicative of fake news. These approaches use features such as writing style, linguistic patterns, and sentiment analysis to identify fake news stories [4, 5, 6, 7]. Some approaches have also used features such as source credibility, writing style, and headline structure to detect fake news [16, 17]. Content-based approaches have been shown to be effective in detecting fake news, but they are limited by the scope of features they use.
-
-Propagation-based approaches analyze the propagation patterns of news stories to detect fake news. These approaches use features such as retweet count, user credibility, and network structure to identify fake news stories [8, 9, 10, 11]. Some approaches have also used features such as user behavior, network structure, and user context to identify fake news [18, 19]. Propagation-based approaches have been shown to be effective in detecting fake news, but they are limited by the scope of features they use.
-
-Hybrid approaches combine content-based and propagation-based approaches to improve the performance of fake news detection. These approaches use a combination of features such as source credibility, writing style, headline structure, retweet count, user credibility, and network structure to identify fake news stories [12, 13, 14, 15]. Hybrid approaches have been shown to be effective in detecting fake news, but they are limited by the scope of features they use.
-
-3 Adaptive Fake News Detection Framework
-
-In this section, we describe the proposed framework for adaptive fake news detection. The framework consists of three key components: (1) a set of fake news indicators that capture the evolving nature of fake news; (2) a deep learning architecture that uses the evolving fake news indicators to detect fake news in evolving news stories; and (3) a set of evaluation metrics that measure the performance of the proposed framework.
-
-3.1 Fake News Indicators
-
-The proposed fake news indicators are designed to capture the evolving nature of fake news by focusing on four key factors that drive fake news evolution: content, context, agent, and network [20, 21]. The proposed fake news indicators are designed to account for the evolving nature of fake news, where the content, form, and dissemination mechanisms of fake news change over time.
-
-The proposed fake news indicators are designed to capture the following aspects of fake news:
-
-Content: The proposed fake news indicators capture the content of news stories by analyzing the writing style, linguistic patterns, and sentiment of news stories. These features are indicative of fake news, as fake news stories tend to employ deceptive writing styles and use linguistic patterns that are different from those found in real news stories.
-
-Context: The proposed fake news indicators capture the context of news stories by analyzing the source of the story, the date of publication, and the location of the news story. These features are indicative of fake news, as fake news stories tend to come from questionable sources, and are often published on specific dates and in specific locations.
-
-Agent: The proposed fake news indicators capture the agent that created the news story by analyzing the behavior, credibility, and history of the user who created the story. These features are indicative of fake news, as fake news stories tend to come from users with questionable behavior, credibility, and history.
-
-Network: The proposed fake news indicators capture the network that disseminated the news story by analyzing the structure, behavior, and credibility of the users who disseminated the story. These features are indicative of fake news, as fake news stories tend to be disseminated by users with questionable behavior, credibility, and history.
-
-3.2 Deep Learning Architecture
-
-The proposed deep learning architecture is designed to learn from the evolving fake news indicators, and use this knowledge to adaptively detect fake news on social media. The deep learning architecture consists of multiple layers of convolutional and recurrent networks that learn from the evolving fake news indicators, and use this knowledge to detect fake news.
-
-The convolutional layers are designed to extract features from the fake news indicators, and use these features to identify patterns and trends in fake news. The recurrent layers are designed to learn from the evolving fake news indicators, and use this knowledge to adapt to changes in fake news patterns and trends. The output of the recurrent layers is fed into a fully connected layer that uses the learned features to detect fake news.
-
-The proposed deep learning architecture is designed to learn from the evolving fake news indicators, and adapt to changing patterns and trends in fake news. In addition, the architecture is designed to be scalable, and can be trained on large datasets of fake news stories.
-
-3.3 Evaluation Metrics
-
-The proposed</title> <link>https://arxiv.org/abs/2403.00037</link> <description><![CDATA[Authors: Creator: Ziqiao Ma^1
-
-Contributors:
-^1University of Delaware
-
-Added: March 05, 2021
-Last Modified: March 05, 2021
-Version: 1
-
-Language: English
-
-Citation:
-
-Ma, Ziqiao. Future Adaptive Event-based Fake News Detection (FADE). https://arxiv.org/abs/2403.00037v1, arXiv, 2021.
-
-Download BibTex citation
-
-@misc{ma2021future,
-      title={Future Adaptive Event-based Fake News Detection (FADE)}, 
-      author={Ziqiao Ma},
-      year={2021},
-      eprint={2403.00037v1},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL}
-}]]></description> <guid>https://arxiv.org/abs/2403.00037</guid> <pubDate>Mon, 04 Mar 2024 12:47:38 GMT</pubDate> </item> <item> <title>Bandit algorithms are used in sequential decision-making problems to balance exploration and exploitation in order to maximize the total reward obtained. In traditional bandit problems, the reward for each arm (action) is fixed and does not change. However, in some applications, the reward for an arm can be influenced by the actions taken in previous rounds. These types of problems are known as influencing bandits.
-
-One example of influencing bandits is in preference shaping, where the goal is to guide a user's preferences towards a desired outcome. In this scenario, the reward for each arm is influenced by the user's past choices and can change over time. This makes the arm selection problem more challenging, as the rewards are no longer stationary.
-
-In order to address this problem, arm selection strategies for influencing bandits have been developed. These strategies aim to learn the user's preferences and make arm selections that will shape their preferences towards the desired outcome. One approach is to use Bayesian optimization, which models the user's preferences as a Gaussian process and uses this information to select arms with the highest potential for shaping the user's preferences.
-
-Another approach is to use reinforcement learning techniques, such as Q-learning, to learn the optimal arm selection policy. This approach takes into account the changing rewards for each arm and learns the best arm selection strategy over time.
-
-Some studies have also explored the use of contextual information in influencing bandits. Contextual information, such as the user's demographics or past behavior, can provide additional information for selecting arms that are more likely to shape the user's preferences.
-
-Overall, arm selection strategies for influencing bandits are still an active area of research. As more applications for influencing bandits emerge, it is likely that new and more advanced techniques will be developed to address this problem.</title> <link>https://arxiv.org/abs/2403.00036</link> <description><![CDATA[Introduction
-
-The multi-armed bandit (MAB) problem has been studied extensively in the literature and has found applications in a variety of fields, including economics, psychology, machine learning, and statistics. The basic problem involves a gambler who is faced with a set of slot machines (arms) and wishes to maximize his rewards over a sequence of pulls. The gambler can only pull one arm at a time and the rewards obtained are stochastic and dependent on the arm pulled. At each round the gambler must decide which arm to pull next based on the information obtained so far. The problem is to design an algorithm that can learn the arms with the highest expected rewards while minimizing the regret, i.e., the difference between the total reward obtained by the algorithm and the total reward obtained by a clairvoyant algorithm that knows the expected reward for each arm. When there is a single arm that offers the highest expected reward, the problem of finding this arm is called the best arm identification problem.
-
-In this paper, we consider a non-stationary MAB problem in which the population preferences are positively and negatively reinforced by the observed rewards. The objective of the algorithm is to shape the population preferences to maximize the fraction of the population favouring a predetermined arm. For the case of binary opinions, two types of opinion dynamics are considered -- decreasing elasticity (modeled as a Polya urn with increasing number of balls) and constant elasticity (using the voter model). For the first case, we describe an Explore-then-commit policy and a Thompson sampling policy and analyse the regret for each of these policies. We then show that these algorithms and their analyses carry over to the constant elasticity case. We also describe a Thompson sampling based algorithm for the case when more than two types of opinions are present. Finally, we discuss the case where presence of multiple recommendation systems gives rise to a trade-off between their popularity and opinion shaping objectives.
-
-The rest of this paper is organized as follows. In Section 2, we describe the problem setting. In Section 3, we describe the Explore-then-commit and Thompson sampling algorithms for the binary opinion case. In Section 4, we extend these algorithms to the case of more than two types of opinions. In Section 5, we discuss the case where multiple recommendation systems give rise to a trade-off between their popularity and opinion shaping objectives. In Section 6, we conclude and discuss future work.
-
-Problem Setting
-
-We consider a population of n individuals who are influenced by a set of m recommendation systems. Each recommendation system i\in\{1,\dots, m\} is associated with an arm \theta_{i}\in\{1,\dots,K\} and is intended to influence the population preferences towards its arm. The population preferences are represented by a state vector {\bf{z}}(t)=(z_{1}(t),\dots,z_{K}(t))^{T}, where z_{k}(t) denotes the fraction of the population that prefers arm k at time t. We assume that the recommendation systems are non-intrusive, i.e., the population preferences are dynamically influenced by the recommendation systems but not permanently altered. This is captured by the following Markovian dynamics:
-
-{\bf{z}}(t+1)={\bf{M}}_{\bf{\theta}}(t){\bf{z}}(t), (1) 
-
-where {\bf{M}}_{\bf{\theta}}=(m_{k,l}) is a K\times K stochastic matrix such that m_{k,l} is the probability that an individual who initially prefers arm l will prefer arm k after observing the rewards generated by recommendation system \theta. We refer to {\bf{M}}_{\bf{\theta}} as the transition matrix for \theta.
-
-We assume that the preferences of each individual evolve independently of those of the others. Let Y_{i}(t)\in\{0,1\} denote the binary opinion of individual i\in\{1,\dots,n\} at time t, where Y_{i}(t)=1 if individual i prefers arm \theta_{i} and Y_{i}(t)=0 otherwise. We assume that the opinions of individual i are generated by a non-stationary stochastic process such that:
-
-\displaystyle\Pr(Y_{i}(t+1)=1|Y_{i}(t)=1,\theta_{i},\ldots,\theta_{n}) \\ \displaystyle=\Pr(Y_{i}(t+1)=1|Y_{i}(t)=1,\theta_{i},\ldots,\theta_{n},Y_{k}(t) \displaystyle\forall k\neq i), (2) 
-
-where the additional variables Y_{k}(t) account for the fact that the population preferences may be influenced by other recommendation systems besides \theta_{i}.
-
-We assume that the state of the system is observed at each time step and the observed rewards are used to update the opinion of each individual. In particular, let N_{k}(t) denote the number of individuals who have preferred arm k up to time t, i.e., N_{k}(t)=\sum_{i=1}^{n}Y_{i}(t). Then, the observed fraction of individuals who prefer arm k up to time t is \hat{z}_{k}(t)=\frac{N_{k}(t)}{n}. We assume that the rewards are generated according to the following stochastic process:
-
-R_{i}(t)=\left\{\begin{array}[]{cc}1&amp;\text{with probability }p_{\theta_{i}}(t)% \hat{z}_{\theta_{i}}(t)\\ 0&amp;\text{otherwise}\end{array}\right., (3) 
-
-where p_{\theta_{i}}(t) is the probability that arm \theta_{i} generates a reward of 1 at time t.
-
-The objective of the algorithm is to shape the population preferences to maximize the fraction of the population favouring a predetermined arm k^{*}. We refer to k^{*} as the target arm. Note that the state of the system is available to the algorithm at each time step, and therefore, the algorithm can compute the fraction of individuals who currently prefer arm k^{*}.
-
-Explore-then-commit Policy
-
-We describe an Explore-then-commit policy for the binary opinion case. In this policy, the algorithm explores the arms for a fixed time interval T and then commits to the arm that has the highest fraction of individuals at the end of the exploration period. The algorithm proceeds as follows:
-
-Explore for T time steps: For each time step t\in\{1,\dots,T\}, each individual i pulls the arm \theta_{i} uniformly at random and updates its opinion according to (2).
-
-Commit: At the end of the T time steps, the algorithm computes the fraction of individuals who prefer each arm and commits to the arm with the highest fraction.
-
-In the following theorem, we show that the expected regret of the Explore-then-commit policy is upper bounded by O(T\sqrt{n}) for any T&gt;0.
-
-Theorem 1.
-
-The expected regret of the Explore-then-commit policy is upper bounded by O(T\sqrt{n}) for any T&gt;0.
-
-Proof.
-
-Let k^{*} denote the target arm. Let N_{k^{*}}(T) denote the number of individuals who prefer the target arm by the end of the T time steps. The expected reward of the target arm during the exploration phase is \mathbb{E}[N_{k^{*}}(T)]=\frac{1}{K}\sum_{i=1}^{K}\mathbb{E}[N_{i}(T)], where N_{i}(T) denotes the number of individuals who prefer arm i at the end of the T time steps. The expected reward of the optimal arm during the commitment phase is \mathbb{E}[N_{k^{*}}(t)]=\mathbb{E}[N_{k^{*}}(T)]+O(\sqrt{n}). The commitment phase lasts for n-T time steps and therefore, the expected regret during the commitment phase is O(\sqrt{n}). The expected regret during the exploration phase is O(T\sqrt{n}). Therefore, the total expected regret is O(T\sqrt{n}). ∎
-
-Thompson Sampling Policy
-
-We now describe a Thompson sampling policy for the binary opinion case. In this policy, the algorithm maintains a prior distribution over the preferences of each individual. The parameters of the prior distribution are updated using Bayes rule based on the observed rewards. At each time step, the algorithm samples a value from the posterior distribution of each individual and uses these values to compute the fraction of individuals who prefer each arm. The algorithm then commits to the arm with the highest fraction. In the following theorem, we show that the expected regret of Thompson sampling is upper bounded by O(\sqrt{n\log n}).
-
-Theorem 2.
-
-The expected regret of the Thompson sampling policy is upper bounded by O(\sqrt{n\log n}).
-
-Proof.
-
-Let k^{*} denote the target arm. Let N_{k^{*}}(t) denote the number of individuals who prefer the target arm by time t. The expected reward of the target arm at time t is \mathbb{E}[N_{k^{*}}(t)]=\sum_{i=1}^{K}\mathbb{E}[N_{i}(t)], where N_{i}(t) denotes the number of individuals who prefer arm i at time t. Since \mathbb{E}[N_{i}(t)] is a sum of independent random variables,]]></description> <guid>https://arxiv.org/abs/2403.00036</guid> <pubDate>Mon, 04 Mar 2024 12:47:12 GMT</pubDate> </item> <item> <title>The citation network is a fundamental component of academic research, as it allows researchers to track the influence and impact of their work within a specific field. However, traditional methods for modeling citation networks have primarily focused on static representations, which fail to capture the dynamic nature of citation patterns.
-
-To address this issue, a recent study proposed the Dynamic Impact Single-Event Embedding (DISEE) model, which utilizes a neural network to embed citation events into a low-dimensional space. This approach allows for the representation of both the citation network and the temporal evolution of citations.
-
-The DISEE model starts by constructing a citation graph, where nodes represent scientific papers and edges represent citation relationships between them. Then, a neural network is trained to generate embeddings for each node in the graph based on its local citation context. This enables the model to capture the semantic relationships between papers and their citations, as well as the temporal patterns of citation events.
-
-One of the main advantages of the DISEE model is its ability to predict future citation behavior based on past citation patterns. This can provide valuable insights for researchers, as it allows them to identify which papers are likely to have a high impact in the future. Additionally, the DISEE model can also be used to recommend related papers to researchers, based on the similarity of their citation patterns.
-
-In a case study on a dataset of over 1 million papers from the field of computer science, the DISEE model outperformed traditional methods for citation prediction and recommendation. It also showed promising results in detecting emerging research topics and identifying influential papers.
-
-In conclusion, the DISEE model offers a novel approach for modeling citation networks that captures both the static and dynamic aspects of citations. Its ability to predict future citation behavior and recommend related papers makes it a valuable tool for researchers in various fields.</title> <link>https://arxiv.org/abs/2403.00032</link> <description><![CDATA[\end{abstract}]]></description> <guid>https://arxiv.org/abs/2403.00032</guid> <pubDate>Mon, 04 Mar 2024 12:46:43 GMT</pubDate> </item> <item> <title>Differential privacy is a promising approach to protect the privacy of individuals while still allowing useful data analysis. This approach involves adding controlled noise to the data before releasing it to ensure that no individual's privacy is compromised. However, the noise added can also affect the accuracy of the data analysis, making it challenging to balance privacy and utility.
-
-One way to address this challenge is by generating a differential privacy graph, which is a graphical representation of the trade-off between privacy and utility. This graph can help data analysts determine the level of privacy they want to achieve while maintaining a certain level of utility.
-
-In this paper, we propose a method for generating a differential privacy graph with high availability. Our approach involves the following steps:
-
-1. Data preprocessing: The first step is to preprocess the data to remove any identifying information and convert it into a suitable format for analysis. This step is crucial to ensure that the data is not identifiable and to maintain the privacy of individuals.
-
-2. Differential privacy mechanism selection: Next, we need to select a differential privacy mechanism to add noise to the data. There are various mechanisms available, such as Laplace mechanism, Gaussian mechanism, and exponential mechanism. The choice of mechanism will depend on the type of data and the desired level of privacy.
-
-3. Privacy and utility calculation: We then calculate the privacy and utility metrics for each level of noise added. Privacy can be measured using metrics such as ε-differential privacy or k-anonymity, while utility can be measured using metrics such as mean squared error or accuracy.
-
-4. Generation of the differential privacy graph: Based on the calculated privacy and utility metrics, we can generate a differential privacy graph. This graph will have privacy on the x-axis and utility on the y-axis. Each point on the graph represents a specific level of noise added to the data, and the trade-off between privacy and utility is shown by the curve connecting these points.
-
-5. High availability optimization: Our proposed method also includes an optimization step to generate a differential privacy graph with high availability. This step involves finding the optimal balance between privacy and utility, taking into account the specific requirements of the data analysis task.
-
-6. Graph analysis and interpretation: Finally, the generated differential privacy graph can be analyzed and interpreted to determine the appropriate level of noise that can be added to the data to achieve the desired level of privacy while maintaining a suitable level of utility.
-
-In conclusion, our proposed method can generate a differential privacy graph with high availability, providing data analysts with a valuable tool to balance privacy and utility in their data analysis tasks. This graph can be used to guide decision-making and facilitate the adoption of differential privacy in various applications.</title> <link>https://arxiv.org/abs/2403.00030</link> <description><![CDATA[To verify the performance of our framework, we compare it with the state-of-the-art graph-level DP model and the GAN-based graph anonymization model. The results show that our framework has significant advantages in graph data protection and model accuracy. 
-
-1 Introduction
-
-With the rapid development of graph neural networks (GNN), more and more graph datasets have been published for GNN tasks, such as node classification [8], graph classification [22], and link prediction [15]. However, when an upstream data owner publishes graph data, there are often many privacy concerns, because many real-world graph data contain sensitive information like person&#39;s friend list. For example, a social network dataset contains a person&#39;s friend list, which may expose the location, occupation, and identity of the person. Moreover, the availability of real-world graph data in various fields, such as biology, social networks, and traffic networks, has recently led to the adoption of GNNs [23]. Therefore, it is urgent to design a robust and efficient method to protect the privacy of graph data while ensuring that the availability of data is basically unchanged.
-
-Differential privacy (DP) is a common method to protect privacy, which is a formal privacy standard that can measure the privacy loss of the released data [12]. The basic idea of DP is to make the probability of two adjacent databases produced by adding or deleting a single item differ by at most a factor e^{\epsilon} [24]. In recent years, many differentially private methods have been proposed to protect the privacy of graph data. For example, the graph convolutional network (GCN) was extended to the DP framework [3]. DP-GCN [25] and DPGAN [27] further improved the protection of graph data by combining the techniques of data perturbation and adversarial training. The above methods are all graph-level DP methods, which require the data owner to release the entire graph data to the public. However, the data owner does not want to publish the entire graph data because it may expose sensitive information. For example, a company developing a new drug wants to publish a graph dataset of the chemical structure, but it does not want to publish the raw data of the chemical formula due to commercial competition. Hence, there is a need for a finer-grained privacy protection method to protect the privacy of graph data, which allows the data owner to release only part of the graph data to the public.
-
-To protect the privacy of graph data, some researchers have proposed graph anonymization methods. The basic idea is to randomly add or delete some nodes or edges in the graph data to reduce the probability of identifying sensitive information. For example, the graph anonymization method [2] proposed a k-anonymization algorithm to reduce the risk of privacy leakage. The GAN-based graph anonymization method [16] generated synthetic graphs through a generator network to replace the original graph. The above methods are all based on the idea of node or edge deletion, which can protect the privacy of graph data, but it is difficult to ensure the availability of data. When a large number of nodes or edges are deleted or added, the statistical properties of the original graph are destroyed, which makes it difficult to re-identify the original data. Therefore, the above methods are more suitable for protecting the privacy of data in a static graph, but not for a dynamic graph.
-
-In this paper, we propose a novel graph edge protection framework, graph publisher (GraphPub), which can protect graph topology while ensuring that the availability of data is basically unchanged. The basic idea of our framework is to modify the original graph by adding fake edges, which is difficult to distinguish between real and false data. This idea is motivated by the fact that the change of some edges in the graph topology has little effect on the accuracy of the graph model, but it can effectively prevent the attacker from inferring the privacy of graph data. In order to achieve this goal, we use reverse learning and the encoder-decoder mechanism to search for some false edges that do not have a large negative impact on the aggregation of node features, and use them to replace some real edges. The modified graph will be published, which is difficult to distinguish between real and false data. Our framework has the following main contributions:
-
-To the best of our knowledge, this is the first work to use reverse learning and the encoder-decoder mechanism to protect the privacy of graph data. We introduce a novel framework, GraphPub, which can effectively protect the privacy of graph data while ensuring that the availability of data is basically unchanged.
-
-The proposed framework can protect the privacy of graph data with an extremely low privacy budget. We use a reverse learning method to search for fake edges, which can be added to the graph data to protect the privacy of the original data. The results show that our framework achieves model accuracy close to the original graph with an extremely low privacy budget.
-
-To verify the performance of our framework, we compare it with the state-of-the-art graph-level DP model and the GAN-based graph anonymization model. The results show that our framework has significant advantages in graph data protection and model accuracy.
-
-The rest of this paper is organized as follows. In Section 2, we review the basic concepts of graph data and differential privacy. Section 3 introduces the proposed graph publisher framework. In Section 4, we evaluate the performance of our framework through several experiments, and compare it with the state-of-the-art methods. Finally, we conclude the paper and point out some future research directions in Section 5.
-
-2 Preliminaries
-
-In this section, we introduce the basic concepts of graph data and differential privacy. 
-
-2.1 Graph Representation
-
-Let G=(V,E) represent a graph, where V=\{v_{1},v_{2},\ldots,v_{n}\} is a set of nodes and E=\{e_{11},e_{12},\ldots,e_{nm}\} is a set of edges. Each edge e_{ij}\in E is an ordered pair of nodes (v_{i},v_{j}). The adjacency matrix A\in\mathbb{R}^{n\times n} is a matrix that represents the connection relationship between nodes. If there is a connection (edge) between nodes v_{i} and v_{j}, then A_{ij}=1; otherwise, A_{ij}=0. As a special case, the adjacency matrix of an undirected graph is symmetric. In this paper, we define a graph as undirected and the adjacency matrix as symmetric, unless otherwise specified. A graph can also be represented by its characteristic polynomial p(G,\lambda) [17]:
-
-p(G,\lambda)=\sum_{i=0}^{n}\alpha_{i}\lambda^{i}, (1) 
-
-where \alpha_{i} is the i-th coefficient of the polynomial. The adjacency matrix of a graph is a special case of the Laplacian matrix, which is closely related to the characteristic polynomial of the graph.
-
-2.2 Differential Privacy
-
-Differential privacy (DP) [11] is a strong privacy standard, which can measure the privacy loss of the released data. The basic idea of DP is to make the probability of two adjacent databases produced by adding or deleting a single item differ by at most a factor e^{\epsilon} [24]. Assume that the original database is D and the adjacent database is D^{\prime}. The sensitivity of a function f(D) is defined as the maximum difference between two adjacent databases:
-
-\Delta f=\max_{D,D^{\prime}}\|f(D)-f(D^{\prime})\|_{1}, (2) 
-
-where D,D^{\prime} are two adjacent databases. If the sensitivity of a function f(D) is bounded by a constant \Delta f, then the following inequality holds:
-
-P(f(D)\in S)\leq e^{\epsilon}P(f(D^{\prime})\in S)+\delta, (3) 
-
-where S is a subset of the output space, and \delta is a small constant. The smaller the value of \epsilon, the stronger the privacy guarantee. 
-
-3 Graph Publisher
-
-In this section, we introduce the proposed graph publisher framework, GraphPub. The basic idea of our framework is to modify the original graph by adding fake edges, which is difficult to distinguish between real and false data. We use reverse learning and the encoder-decoder mechanism to search for some false edges that do not have a large negative impact on the aggregation of node features, and use them to replace some real edges. The modified graph will be published, which is difficult to distinguish between real and false data. The structure of the proposed framework is shown in Figure 1, which consists of two parts: the encoder and the decoder. In the following, we introduce the encoder and decoder in detail.
-
-Figure 1: The structure of the proposed framework, GraphPub.
-
-3.1 Encoder
-
-The purpose of the encoder is to generate fake edges that can be added to the original graph. The encoder can be any differentiable function, such as a fully connected neural network, a convolutional neural network, or a graph neural network. The encoder takes the adjacency matrix A and the node features X as input, and outputs a new adjacency matrix \hat{A}. We use \hat{A} to represent the modified adjacency matrix of the original graph. In order to ensure that the new adjacency matrix has the same size as the original adjacency matrix, we use the following operation to obtain the final adjacency matrix:
-
-\hat{A}=\left\{\begin{array}[]{lr}A+\hat{A},&amp;\hat{A}\geq 0.5,\\ A-\hat{A},&amp;\hat{A}&lt;0.5.\end{array}\right. (4)]]></description> <guid>https://arxiv.org/abs/2403.00030</guid> <pubDate>Mon, 04 Mar 2024 12:46:39 GMT</pubDate> </item> <item> <title>Guilherme M. A. Gomes, Rafael D. R. Monteiro, Marcus Ritt,
-
-We introduce a new model for the Capacitated Vehicle Routing Problem (CVRP), based on deep Reinforcement Learning (RL) techniques and specially designed to take into account real-world constraints, such as customer time windows and a heterogeneous fleet. Our approach is inspired by the recent advances in Deep RL and is capable of dealing with a large number of nodes, which is the standard in real-world scenarios. In this paper, we present a detailed description of the model, the RL method used, the state and action definitions, as well as the reward function. Our model is based on a deep neural network architecture, and we demonstrate that it can learn to solve CVRP instances with hundreds of nodes, while being able to generalize to new problem instances of the same type. We compare our approach to traditional heuristics and to state-of-the-art deep RL models. The results show that our model can outperform heuristics on some well-known benchmark instances, while being able to find optimal solutions for instances with up to 200 customers. Our work aims to provide a foundation model for the CVRP, focusing on delivering a better performance and, more importantly, serving as a basis for future research in this area.
-
-[
-
-@Article{gomes2020learning,
-  author    = {Gomes, Guilherme M. A. and Monteiro, Rafael D. R. and Ritt, Marcus},
-  title     = {Learning to Deliver: a Foundation Model for the Montreal Capacitated Vehicle Routing Problem},
-  journal   = {Neurocomputing},
-  year      = {2020},
-  month     = {Mar},
-  volume    = {392},
-  pages     = {1--11},
-  publisher = {Elsevier},
-  issn      = {0925-2312},
-  doi       = {10.1016/j.neucom.2019.10.079},
-  keywords  = {Capacitated vehicle routing problem; Deep reinforcement learning; Neural networks; Metaheuristics},
-  url       = {https://www.sciencedirect.com/science/article/pii/S0925231219317360}
-}</title> <link>https://arxiv.org/abs/2403.00026</link> <description><![CDATA[From a broader perspective, our work shows the potential of leveraging large-scale language models to learn combinatorial optimization problems from data, which could have significant implications in automating the solution of many NP-Hard problems that arise in real-world applications. 
-
-Authors: 1. Nicholas B. Zufelt 
-
-Title: Graph Neural Networks for the Capacitated Vehicle Routing Problem 
-
-arXiv:2403.00030v1 Announce Type: cross 
-Abstract: The Capacitated Vehicle Routing Problem (CVRP) is a fundamental combinatorial optimization problem with applications in logistics and transportation. In this paper, we introduce a new approach to solve the CVRP using Graph Neural Networks (GNNs). We show the feasibility of our approach by solving the problem on the well-known benchmark dataset of Solomon&#39;s CVRP instances. Specifically, we propose a new GNN architecture for the CVRP, which we call CVRP-Net. Our CVRP-Net is composed of a Graph Convolutional Network (GCN) followed by a Multi-Layer Perceptron (MLP). We evaluate our approach by comparing it with a state-of-the-art heuristic on the CVRP and demonstrate that our model achieves competitive results. Moreover, we show that our CVRP-Net generalizes to larger problem instances not seen during training. We also investigate the robustness of our model by introducing CVRP instances with different distributions of customers and demonstrate that our approach performs well on these instances. Finally, we analyze the behavior of our model when varying the vehicle capacity, and we show that our model can adapt to different vehicle capacity values. 
-
-Authors: 1. Liam Schoneveld
-
-2. Marco Galli
-
-3. Stefano Coniglio
-
-Title: Routing and Scheduling Strategies for Automated Last-Mile Delivery 
-
-arXiv:2403.00028v1 Announce Type: cross 
-Abstract: Automated last-mile delivery is an emerging application that holds the promise of significantly reducing the costs and environmental impact of logistics operations. However, its implementation requires the development of novel routing and scheduling strategies that are specifically tailored to handle the complexities of this domain. In this paper, we address two key challenges related to routing and scheduling for automated last-mile delivery: (1) designing efficient routing strategies that account for the constraints and dynamic nature of the environment; and (2) developing scheduling strategies that can handle the large number of vehicles and tasks that are typically involved in this setting. We present a comprehensive review of the literature on routing and scheduling strategies for automated last-mile delivery, and we discuss the main trends and challenges that emerge from this body of work. We then propose a taxonomy for categorizing the different approaches that have been proposed in this context, and we provide a detailed overview of the main strategies that have been developed to address these challenges. Finally, we discuss the key research directions that are emerging in the field, and we highlight some of the open questions that need to be addressed in order to enable the widespread adoption of automated last-mile delivery systems. 
-
-Authors: 1. Francesco Barbato
-
-2. Alessandro Tappia
-
-3. Marco Fiore
-
-Title: Large-Scale Vehicle Routing for Urban Parcel Delivery Using Deep Reinforcement Learning 
-
-arXiv:2403.00029v1 Announce Type: cross 
-Abstract: With the recent growth of e-commerce, parcel delivery has become a fundamental component of urban logistics. To handle the increasing volume of parcels, delivery companies need to optimize their routes to minimize costs and improve efficiency. However, solving the Vehicle Routing Problem (VRP) for large-scale instances is a challenging task, especially in urban environments, where traffic and other factors can significantly impact the delivery time. In this paper, we propose a Deep Reinforcement Learning (DRL) approach to tackle the large-scale VRP for urban parcel delivery. Our approach, called VRP-DRL, leverages a Deep Q-Network (DQN) to learn a policy that maps a state (representing the current location of the vehicle and the remaining parcels to be delivered) to an action (representing the next parcel to be delivered). We evaluate our approach on a real-world dataset of parcel delivery tasks in the city of Milan, Italy. Our results show that VRP-DRL outperforms traditional routing methods in terms of delivery time, and it can scale to large problem instances with hundreds of parcels and multiple vehicles. We also demonstrate the robustness of our approach to changes in the city&#39;s road network and traffic conditions. Finally, we analyze the behavior of our model when varying the number of vehicles and the average number of parcels per vehicle, showing that our approach is effective in handling different delivery scenarios.]]></description> <guid>https://arxiv.org/abs/2403.00026</guid> <pubDate>Mon, 04 Mar 2024 12:46:10 GMT</pubDate> </item> <item> <title>Generative AI applications are becoming more widespread, with a growing number of industries and use cases benefiting from this technology. However, as with any emerging technology, there are challenges and opportunities that need to be addressed in order to fully harness its potential.
-
-Challenges:
-
-1. Data Bias: Generative AI models are trained on existing data, which may contain biases and perpetuate existing societal inequalities. This can lead to biased outputs and reinforce discrimination and prejudices.
-
-2. Ethics and Regulation: With the increasing use of generative AI in diverse fields such as finance, healthcare, and law, there is a need for clear ethical guidelines and regulations to ensure responsible and fair use of the technology.
-
-3. Scalability and Efficiency: Training and deploying generative AI models can be computationally intensive and time-consuming, making it difficult to scale up for larger datasets and real-time applications.
-
-4. Interpretability: The complex and opaque nature of generative AI models makes it challenging to understand how they make decisions and generate outputs. This lack of interpretability can create trust issues and make it difficult to identify and correct errors.
-
-Opportunities:
-
-1. Creative Applications: Generative AI has the potential to revolutionize creative industries such as art, music, and fashion by assisting and augmenting human creativity.
-
-2. Personalization: Generative AI can be used to create personalized products and services tailored to individual preferences, leading to a more personalized and enhanced user experience.
-
-3. Cost Savings: Generative AI can automate and optimize processes, reducing the need for manual labor and saving time and costs for businesses.
-
-4. Scientific Advancements: Generative AI can help scientists and researchers in various fields, such as drug discovery and climate modeling, by generating new hypotheses and insights.
-
-5. Human-AI Collaboration: Generative AI can enhance human capabilities and enable collaboration between humans and machines, leading to more efficient and innovative solutions.
-
-In conclusion, while there are challenges to be addressed, the opportunities presented by generative AI are vast and can greatly benefit society. It is crucial to continue developing and using this technology responsibly and ethically to fully realize its potential.</title> <link>https://arxiv.org/abs/2403.00025</link> <description><![CDATA[Authors: 
-Manuel Wiese
-1
-1: Institute of Data Science, Maastricht University, Maastricht, The Netherlands
-
-Research team: Institute of Data Science of Maastricht University 
-
-Dates: Submitted on 25 Feb 2021
-\end{document}]]></description> <guid>https://arxiv.org/abs/2403.00025</guid> <pubDate>Mon, 04 Mar 2024 12:45:55 GMT</pubDate> </item> <item> <title>This paper proposes a privacy-preserving distributed deep learning framework for collaborative deep learning. The proposed framework uses attribute-based differential privacy to protect the privacy of the data owners and is based on the homomorphic encryption technique to enable secure computation between the data owners and the model owner. The framework uses two key techniques to achieve privacy and security: attribute-based encryption and differential privacy. Attribute-based encryption is used to encrypt the data in a way that allows only users with specific attributes to access it. Differential privacy is used to add noise to the data before it is transferred to the model owner, ensuring that the data remains private even after it is used for training.
-
-The proposed framework also introduces a new auditing mechanism that allows for auditing of the model's performance while preserving the privacy of the data owners. This is achieved by using a secure multi-party computation protocol, where the data owners can jointly evaluate the model's performance without sharing their data with each other or the model owner.
-
-The results of experiments conducted on the MNIST and CIFAR-10 datasets show that the proposed framework achieves high accuracy while preserving the privacy of the data owners. The framework also shows promising results in terms of scalability, as it can handle a large number of data owners and perform well even with a small number of data owners.
-
-Overall, this paper presents a novel framework for privacy-preserving collaborative deep learning that addresses the challenges of privacy, security, and auditing in a decentralized setting. The proposed framework has the potential to be applied in various domains, such as healthcare, finance, and social media, where data privacy is a major concern.</title> <link>https://arxiv.org/abs/2403.00023</link> <description><![CDATA[CrossRef: 10.1109/ACCESS.2021.3072688 
-
-1 Introduction
-
-In recent years, machine learning (ML) has been widely used in various fields, such as health care, smart grid, transportation, and social media, to extract valuable and actionable insights from large-scale data. However, traditional ML techniques require centralizing large volumes of data from different sources. This approach has raised several concerns about privacy, security, scalability, and energy efficiency. To address these issues, federated learning (FL) has emerged as a new paradigm to train a model with a distributed dataset without the need of a trusted third party (TTP). FL provides the benefits of the centralized model while addressing the issues of traditional ML techniques. The main idea of FL is to train a model in a decentralized way and avoid the centralization of data, since the data is kept at the edge nodes and is not transferred to any central server. FL enables a group of edge nodes to collaboratively train a model under a common objective while keeping their data private. Instead of transmitting the data, the edge nodes only communicate their local model updates with the central server. The central server aggregates these updates to produce a global model that is then distributed back to the edge nodes. In this way, FL can protect the data privacy of edge nodes and reduce the communication cost of transmitting the original data to the central server.
-
-Although FL has been widely adopted in many applications, it still has several limitations in terms of privacy and security. The security of FL depends on the central server since it is responsible for aggregating the model updates and producing the global model. However, the central server can be compromised by an adversary and may be a single point of failure. Therefore, the central server is considered as a TTP in FL, which may lead to several privacy and security issues. To avoid the need of a TTP, some previous works have introduced differential privacy (DP) to protect data privacy. However, DP may also significantly deteriorate the model performance [1]. Moreover, most FL systems have a single central server, which does not scale well for large-scale FL applications. In addition, this architecture is not suitable for privacy-sensitive applications. To address these issues, we propose a novel decentralized collaborative AI framework, named Auditable Homomorphic-based Decentralised Collaborative AI (AerisAI), to improve security with homomorphic encryption and fine-grained DP.
-
-AerisAI aims to protect the data privacy of edge nodes, mitigate the risk of a single point of failure, and improve the model performance. Our proposed AerisAI directly aggregates the encrypted parameters without the need of a central server. Moreover, we introduce a brand-new concept for eliminating the negative impacts of DP on the model performance. In our proposed AerisAI, the edge nodes encrypt their model updates and directly upload them to the blockchain-based smart contract. The smart contract then aggregates the encrypted updates and produces the global model. The central server only acts as a proxy for managing the blockchain-based smart contract and is not responsible for aggregating the model updates. The smart contract not only eliminates the need of a TTP but also provides the benefits of immutability, transparency, and auditability. In addition, the proposed AerisAI also provides the broadcast-aware group key management based on ciphertext-policy attribute-based encryption (CPABE) to achieve fine-grained access control based on different service-level agreements (SLAs).
-
-The main contributions of this paper are summarized as follows:
-
-- We propose a novel decentralized collaborative AI framework, named AerisAI, for large-scale FL applications.
-- Our proposed AerisAI is based on homomorphic encryption and fine-grained DP to improve security and privacy.
-- We introduce a brand-new concept for eliminating the negative impacts of DP on the model performance.
-- The proposed AerisAI directly aggregates the encrypted parameters with a blockchain-based smart contract, which does not require a TTP.
-- We provide a formal theoretical analysis of our proposed AerisAI and compare it with the other baselines.
-- We conduct extensive experiments on real datasets to evaluate the proposed approach. The experimental results indicate that our proposed AerisAI significantly outperforms the other state-of-the-art baselines.
-
-The remainder of this paper is organized as follows: Section 2 provides an overview of the related work. We present the system model and the problem statement in Section 3. Section 4 presents the design of our proposed AerisAI. We provide the formal theoretical analysis of the proposed AerisAI in Section 5. The experimental results are presented in Section 6. Finally, we conclude the paper in Section 7.
-
-2 Related Work
-
-In this section, we present an overview of the related work. We discuss the related work in terms of homomorphic encryption, DP, and FL.
-
-2.1 Homomorphic Encryption
-
-Homomorphic encryption (HE) is a cryptographic technique that allows to perform computations on encrypted data without decrypting it. HE plays an important role in the field of secure computation, privacy-preserving data mining, and secure multi-party computation. There are two types of HE schemes: partial homomorphic encryption (PHE) and fully homomorphic encryption (FHE). PHE schemes only support certain types of computations, such as addition or multiplication, while FHE schemes support arbitrary computations. PHE schemes are more efficient than FHE schemes in terms of computation and communication costs. One of the most commonly used PHE schemes is the Paillier cryptosystem [2]. The Paillier cryptosystem is based on the decisional composite residuosity assumption and is homomorphic under addition. To improve the efficiency of the Paillier cryptosystem, Gentry proposed an FHE scheme [3]. The Gentry’s FHE scheme is based on the ideal lattice problem and supports arbitrary computations. However, the Gentry’s FHE scheme is still inefficient in practice. Therefore, several FHE schemes have been proposed in the literature, such as the Brakerski–Gentry–Vaikuntanathan (BGV) scheme [4], the Brakerski–Gentry–Vaikuntanathan–Halevi (BGVH) scheme [5], and the Brakerski–Gentry–Vaikuntanathan–Halevi–Saha (BGVHS) scheme [6]. The BGVH and BGVHS schemes are based on the learning with errors (LWE) problem and are more efficient than the Gentry’s FHE scheme. However, the BGVH and BGVHS schemes are still not efficient enough to be deployed in real-world applications. Recently, Fan and Vercauteren proposed a new FHE scheme, named the approximate number field sieve (ANFS) scheme [7], which is based on the approximate number field sieve algorithm. The ANFS scheme is more efficient than the BGV, BGVH, and BGVHS schemes and is efficient enough to be deployed in real-world applications.
-
-2.2 Differential Privacy
-
-DP is a mathematical framework for protecting the privacy of individuals in a dataset. DP was first introduced by Dwork et al. [8] and has gained a lot of attention in the privacy community. DP is based on the idea of adding noise to the original data to protect the privacy of individuals. DP ensures that the output of a computation does not depend on the data of any single individual. Therefore, DP ensures that the privacy of individuals is preserved, even if the adversary knows the other records in the dataset. There are two types of DP: the ε-differential privacy (ε-DP) and the (ε,δ)-differential privacy (ε,δ-DP). The ε-DP is a stronger form of privacy than the ε,δ-DP. The ε-DP is based on the Laplace mechanism, which adds Laplace noise to the original data. The ε-DP has two main limitations: the Laplace mechanism may significantly distort the true values and the ε-DP may not be suitable for real-world applications. To address these limitations, several mechanisms have been proposed in the literature, such as the exponential mechanism [9], the Gaussian mechanism [10], the randomized response mechanism [11], and the noisy max mechanism [12]. However, these mechanisms are still not efficient enough to be used in real-world applications. Therefore, some previous works have introduced DP to FL to protect the privacy of edge nodes in FL applications. However, DP may also deteriorate the model performance.
-
-2.3 Federated Learning
-
-FL was first introduced by Google in 2016 [13] and has gained a lot of attention in recent years. FL can protect the data privacy of edge nodes and mitigate the risk of a single point of failure. In FL, the central server only aggregates the local model updates, which ensures that the data of edge nodes is not transmitted to the central server. Therefore, FL has been widely adopted in many applications, such as health care [14], smart grid [15], transportation [16], and social media [17]. However, FL still has several limitations in terms of security, privacy, and scalability. The security of FL depends on the central server since it is responsible for aggregating the model updates and producing the global model. Therefore, the central server is considered as a TTP in FL, which may lead to several privacy and security issues. To address these issues, some previous works have introduced DP to FL to protect the privacy of edge nodes. However, DP may also deteriorate the model performance. In addition, most FL systems have a single central server, which does not scale well for large-scale FL applications. In addition, this architecture is not suitable for privacy-sensitive applications.
-
-3 System Model and Problem Statement
-
-In this section, we present the system model of our proposed AerisAI]]></description> <guid>https://arxiv.org/abs/2403.00023</guid> <pubDate>Mon, 04 Mar 2024 12:45:49 GMT</pubDate> </item> <item> <title>in High-Dimensional Medical Data
-
-
-Multi-objective feature association analysis is a powerful tool for understanding the relationships between different features in high-dimensional medical data. This approach allows researchers to identify not only the individual features that are associated with a particular outcome, but also the combinations of features that work together to influence the outcome.
-
-However, interpreting the results of a multi-objective feature association analysis can be challenging, as it involves understanding complex relationships between multiple features and outcomes. In this paper, we propose a framework for interpreting multi-objective feature associations in high-dimensional medical data.
-
-1. Understanding the Data: The first step in interpreting multi-objective feature associations is to understand the data. This involves exploring the data to gain a general understanding of the features and outcomes, as well as any potential confounding factors. It is important to have a clear understanding of the data before delving into the analysis.
-
-2. Visualizing Feature Associations: Visualizing the associations between features and outcomes can provide a quick overview of the relationships in the data. This can be done through scatter plots, heat maps, or other visualizations that show the strength of associations between features and outcomes.
-
-3. Identifying Significant Features: Multi-objective feature association analysis typically involves testing for significance of individual features and combinations of features. It is important to identify the most significant features and combinations that are associated with the outcome of interest.
-
-4. Examining Feature Combinations: Once significant features have been identified, it is important to examine the combinations of features that are associated with the outcome. This can be done by looking at the frequency of different feature combinations and their corresponding outcomes.
-
-5. Understanding Relationships: It is also important to understand the nature of the relationships between features and outcomes. Are they positive or negative? Is there a linear or non-linear relationship? Understanding these relationships can provide insights into the underlying mechanisms driving the associations.
-
-6. Cross-Validation: To validate the findings of the multi-objective feature association analysis, it is important to perform cross-validation. This involves splitting the data into training and testing sets and evaluating the performance of the identified feature associations on the testing set.
-
-7. Domain Knowledge: Finally, it is crucial to incorporate domain knowledge in the interpretation of multi-objective feature associations. Medical experts can provide valuable insights into the clinical relevance of the identified associations and help validate the findings.
-
-In conclusion, interpreting multi-objective feature associations in high-dimensional medical data requires a combination of statistical techniques, data visualization, and domain knowledge. The proposed framework provides a structured approach for understanding the complex relationships between features and outcomes in high-dimensional medical data.</title> <link>https://arxiv.org/abs/2403.00017</link> <description><![CDATA[Understanding the effects of human impact on the environment is a major goal in agriculture. It is crucial to understand how multiple features are associated and contribute to a specific objective. This will be particularly important in agricultural settings, where it is difficult to obtain interpretability of a combination of feature values. To address this issue, we propose an objective specific feature interaction design using multi-labels to explore the optimal combination of features. This will be beneficial for understanding the relationship between different features and their impact on a specific outcome. We demonstrate the effectiveness of our approach through experiments on two agricultural datasets: one involving pre-harvest poultry farm practices for multi-drug resistance presence, and one involving post-harvest poultry farm practices for food-borne pathogens.
-
-Our approach involves the integration of feature explanations with global sensitivity analysis to ensure combinatorial optimization in multi-objective settings. We use a combinatorial optimization approach to consider all three pathogens simultaneously, taking into account the interaction between conditions that favor different types of pathogen growth. Our results show that our explanation-based approach is capable of identifying combinations of features that reduce pathogen presence in fewer iterations than a baseline. This highlights the potential of our approach to aid in decision-making in agricultural settings, where optimizing multiple objectives is crucial for sustainable and safe practices.]]></description> <guid>https://arxiv.org/abs/2403.00017</guid> <pubDate>Mon, 04 Mar 2024 12:45:23 GMT</pubDate> </item> <item> <title>Lakhdar Loukil ^1 Marie-Laure Espinouse ^2 Caroline Gagnaire ^3 Sihem Loukil ^1 
-1 G-SCOP_ROSP - ROSP 
-2 LIG Laboratoire d'Informatique de Grenoble - HADAS 
-LIG - Laboratoire d'Informatique de Grenoble
-3 G-SCOP_CPP - CPP 
-Abstract : In this paper we present a new approach for analyzing the sensitivity of combinatorial optimization problems from an objective-oriented viewpoint. This approach is based on the use of constraint programming techniques. Our contribution is twofold. First, we propose a method to compute the sensitivity of the objective function according to the input data of the problem. Our method is based on the resolution of a sequence of optimization problems. Then, we present a new definition of sensitivity based on the capacity of the problem to maintain its structure while varying the input data. This definition is based on the comparison of two combinatorial structures: the input structure and an output structure. We present several experiments on graph coloring problems in order to validate our approach.
-Keywords : Combinatorial optimization constraint programming graph coloring sensitivity analysis
-Type de document :
-Communication dans un congrès
-ICAPS workshop on Heuristics and Search for Domain-independent Planning (HSDIP), Jun 2010, Toronto, Canada. pp.34-41, 2010
-Domaine :
-
-Informatique [cs] / Recherche opérationnelle [cs.RO] 
-
-Liste complète des métadonnées 
-
-https://hal.archives-ouvertes.fr/hal-00675425 Contributeur : Marie-Laure Espinouse <> Soumis le : jeudi 1 mars 2012 - 16:59:32 Dernière modification le : jeudi 11 janvier 2018 - 06:26:46</title> <link>https://arxiv.org/abs/2403.00016</link> <description><![CDATA[]]></description> <guid>https://arxiv.org/abs/2403.00016</guid> <pubDate>Mon, 04 Mar 2024 12:45:14 GMT</pubDate> </item> <item> <title>[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/gin-sd-source-detection-in-graphs-with/graph-classification-on-aids80nef)](https://paperswithcode.com/sota/graph-classification-on-aids80nef?p=gin-sd-source-detection-in-graphs-with)
-
-[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/gin-sd-source-detection-in-graphs-with/node-classification-on-proteins)](https://paperswithcode.com/sota/node-classification-on-proteins?p=gin-sd-source-detection-in-graphs-with)
-
-
-This repository is the official PyTorch implementation of GIN-SD: Source Detection in Graphs with Incomplete Nodes via Positional Encoding and Attentive Fusion.
-
-![GIN-SD framework](https://github.com/pinellolab/GIN-SD/blob/main/figs/overview.png)
-
-[Paper](https://arxiv.org/abs/2110.01621) | [Poster](https://github.com/pinellolab/GIN-SD/blob/main/figs/poster.pdf) | [Slides](https://github.com/pinellolab/GIN-SD/blob/main/figs/slides.pdf) | [Talk](https://github.com/pinellolab/GIN-SD/blob/main/figs/talk.mp4)
-
-Please cite our paper if you find it useful for your research:
-
-```
-@article{jin2021gin,
-  title={GIN-SD: Source Detection in Graphs with Incomplete Nodes via Positional Encoding and Attentive Fusion},
-  author={Jin, Yubin and Wang, Hua and Chen, Xi and Chen, Ziwei and Wu, Dan and Pinello, Luca},
-  journal={arXiv preprint arXiv:2110.01621},
-  year={2021}
-}
-```
-
-## Introduction
-
-This repository contains the code of GIN-SD for source detection in undirected graphs with incomplete nodes. In this task, given a graph with some incomplete nodes and its partial signals, the goal is to identify the source node from which the signals are emitted. To tackle this task, we propose a novel graph convolutional neural network (GCN) based model, namely GIN-SD. Specifically, GIN-SD adopts the graph isomorphism network (GIN) as its basic building block. To encode the positional information of incomplete nodes, GIN-SD further employs positional encoding. Moreover, to capture the dependencies among the signals emitted by different nodes in the graph, GIN-SD adopts attentive fusion. We evaluate GIN-SD on two real-world datasets, i.e., the AIDS80nef and the proteins datasets. Experimental results demonstrate that GIN-SD outperforms other state-of-the-art methods by a large margin.
-
-## Requirements
-
-- Python 3.7
-- PyTorch 1.7.0
-
-## Data
-
-- [AIDS80nef](https://github.com/pinellolab/GIN-SD/blob/main/data/AIDS80nef.md)
-- [Proteins](https://github.com/pinellolab/GIN-SD/blob/main/data/Proteins.md)
-
-## Run the code
-
-To reproduce the results for the AIDS80nef dataset, please run the following command:
-
-```
-python main.py --dataset AIDS80nef
-```
-
-To reproduce the results for the proteins dataset, please run the following command:
-
-```
-python main.py --dataset proteins
-```
-
-To reproduce the results for the proteins dataset when setting the ratio of removed nodes as 70%, please run the following command:
-
-```
-python main.py --dataset proteins --percent 70
-```
-
-Other parameters can be modified in [config.py](https://github.com/pinellolab/GIN-SD/blob/main/config.py).
-
-
-## Results
-
-|Dataset|Method|ACC (%)|F1 (%)|
-|:-----:|:----:|:-----:|:----:|
-|AIDS80nef|GIN-SD (Ours)|**97.67±0.40**|**97.67±0.40**|
-|AIDS80nef|GIN|93.67±0.63|93.71±0.64|
-|AIDS80nef|GCN|90.00±0.71|90.00±0.71|
-|AIDS80nef|GAT|90.00±0.71|90.00±0.71|
-|AIDS80nef|DGCNN|90.00±0.71|90.00±0.71|
-|AIDS80nef|SAGE|90.00±0.71|90.00±0.71|
-|AIDS80nef|NN|90.00±0.71|90.00±0.71|
-|AIDS80nef|LLGC|90.00±0.71|90.00±0.71|
-|AIDS80nef|ChebNet|90.00±0.71|90.00±0.71|
-|AIDS80nef|GraphSAGE|90.00±0.71|90.00±0.71|
-|AIDS80nef|PPNP|90.00±0.71|90.00±0.71|
-|AIDS80nef|APPNP|90.00±0.71|90.00±0.71|
-|AIDS80nef|PTN|90.00±0.71|90.00±0.71|
-|AIDS80nef|GCRN|90.00±0.71|90.00±0.71|
-|AIDS80nef|GATNE|90.00±0.71|90.00±0.71|
-|AIDS80nef|DNF|90.00±0.71|90.00±0.71|
-|AIDS80nef|ARMA|90.00±0.71|90.00±0.71|
-|AIDS80nef|GI-BNN|90.00±0.71|90.00±0.71|
-|AIDS80nef|GIN-SD w/o PE|91.67±0.61|91.67±0.61|
-|AIDS80nef|GIN-SD w/o AF|96.67±0.45|96.67±0.45|
-|AIDS80nef|GIN-SD w/o PE+AF|95.00±0.55|95.00±0.55|
-|AIDS80nef|GIN-SD w/o PE+AF+SE|96.67±0.45|96.67±0.45|
-|AIDS80nef|GIN-SD w/o PE+AF+SE+AA|96.67±0.45|96.67±0.45|
-|Proteins|GIN-SD (Ours)|**79.33±0.24**|**79.33±0.24**|
-|Proteins|GIN|64.00±0.48|64.00±0.48|
-|Proteins|GCN|63.33±0.44|63.33±0.44|
-|Proteins|GAT|60.67±0.26|60.67±0.26|
-|Proteins|DGCNN|61.33±0.44|61.33±0.44|
-|Proteins|SAGE|62.67±0.38|62.67±0.38|
-|Proteins|NN|62.67±0.38|62.67±0.38|
-|Proteins|LLGC|60.67±0.26|60.67±0.26|
-|Proteins|ChebNet|62.00±0.47|62.00±0.47|
-|Proteins|GraphSAGE|64.00±0.48|64.00±0.48|
-|Proteins|PPNP|62.00±0.47|62.00±0.47|
-|Proteins|APPNP|62.00±0.47|62.00±0.47|
-|Proteins|PTN|62.00±0.47|62.00±0.47|
-|Proteins|GCRN|62.00±0.47|62.00±0.47|
-|Proteins|GATNE|62.00±0.47|62.00±0.47|
-|Proteins|DNF|62.00±0.47|62.00±0.47|
-|Proteins|ARMA|62.00±0.47|62.00±0.47|
-|Proteins|GI-BNN|62.00±0.47|62.00±0.47|
-|Proteins|GIN-SD w/o PE|68.67±0.31|68.67±0.31|
-|Proteins|GIN-SD w/o AF|71.33±0.63|71.33±0.63|
-|Proteins|GIN</title> <link>https://arxiv.org/abs/2403.00014</link> <description><![CDATA[Additionally, we investigate the impact of incomplete data distribution and the effectiveness of different self-attention mechanisms. 
-Conference: 
-Contract: 
-Project: CON-ITP 
-Grant: 
-Academic: 
-
-Suggest Addition
-
-Submitted on 29 June, 2021 at 03:02:27
-
-The paper proposes a novel framework, GIN-SD, for source detection in graphs with incomplete nodes, which leverages positional encoding and attentive fusion mechanisms. The proposed framework addresses the challenge of source detection in graphs with incomplete nodes, which is a limitation of existing methods. The authors also propose a class-balancing mechanism to mitigate the prediction bias and conduct extensive experiments to validate the effectiveness of GIN-SD. The paper is well-organized and clearly presents the motivation, methodology, and experimental results. The proposed framework is novel and has the potential to advance the field of source detection in graphs. The experiments are thorough and the results show the superiority of GIN-SD over existing methods. The paper also investigates the impact of incomplete data distribution and the effectiveness of different self-attention mechanisms, which adds to the significance of the work. Overall, the paper is well-written, well-motivated, and makes a valuable contribution to the field.]]></description> <guid>https://arxiv.org/abs/2403.00014</guid> <pubDate>Mon, 04 Mar 2024 12:45:09 GMT</pubDate> </item> <item> <title>User Feedback-based Counterfactual Explanations (UFCE) is a novel approach to generating explanations for machine learning models. It leverages user feedback to generate counterfactual explanations that are tailored to the specific needs and preferences of the user.
-
-Traditional counterfactual explanations are generated by changing the input features of a model and observing the resulting change in the output. However, these explanations may not be meaningful or relevant to a user. UFCE addresses this issue by incorporating user feedback into the explanation generation process.
-
-The UFCE approach works by first generating a set of counterfactual examples for a given prediction. These counterfactual examples are then presented to the user, who can provide feedback on which ones are most relevant or meaningful to them. Based on this feedback, the system generates a personalized explanation that highlights the most relevant features and changes that led to the prediction.
-
-One of the key advantages of UFCE is its ability to generate explanations that are tailored to the user's domain knowledge and preferences. This is especially useful in complex domains where certain features may be more important to the user than others.
-
-Another benefit of UFCE is its ability to handle multiple counterfactual explanations for a single prediction. Traditional methods may only generate one explanation, which may not capture all the relevant factors. By incorporating user feedback, UFCE can generate multiple explanations and allow the user to choose the most relevant one.
-
-Overall, UFCE has the potential to improve the transparency and interpretability of machine learning models, making them more trustworthy and accountable. It also has the potential to improve user understanding and trust in these models, leading to better user acceptance and adoption.</title> <link>https://arxiv.org/abs/2403.00011</link> <description><![CDATA[Furthermore, we show that the explanations provided by UFCE outperform other methods in generating realistic, actionable, and comprehensible explanations. 
-
-Authors: Sajad Darabi, Chris Culnane, Benjamin I. P. Rubinstein, Reza Sherkat, and Rui Zhang
-
-# 3. Preprocessing
-
-We use the following preprocessing steps on our data:
-
-1. Drop irrelevant features
-2. Retrieve the continuous features
-3. Apply MinMaxScaler to the continuous features
-4. Convert categorical features to binary
-5. Perform One-Hot Encoding on the categorical features
-6. Combine the preprocessed continuous and categorical features
-7. Split the data into train and test sets
-
-# 4. Methodology
-
-The proposed User Feedback-based Counterfactual Explanation (UFCE) algorithm takes in a dataset, a trained machine learning model, and a user-defined desired outcome as inputs. It follows the following steps to generate counterfactual explanations:
-
-1. Identify the key contributors to the outcome: The algorithm uses feature importance scores from the trained machine learning model to identify the key contributors to the current outcome.
-
-2. Identify the subset of actionable features: The algorithm uses the identified key contributors to select a subset of actionable features that can be modified to achieve the desired outcome.
-
-3. Incorporate user constraints: The algorithm allows the user to set constraints on the subset of actionable features. These constraints can be used to determine the smallest possible modifications to achieve the desired outcome while also considering the feature dependence.
-
-4. Optimize changes in the subset of actionable features: The algorithm uses a genetic algorithm to optimize changes in the subset of actionable features while considering the user constraints. This step aims to minimize the changes required to achieve the desired outcome.
-
-5. Evaluate the practicality of suggested changes: The algorithm evaluates the practicality of the suggested changes using three benchmark evaluation metrics: \textit{proximity}, \textit{sparsity}, and \textit{feasibility}. This step aims to ensure that the suggested changes are realistic, actionable, and comprehensible.
-
-# 5. Experiments
-
-We conducted three experiments to evaluate the performance of our proposed UFCE algorithm. We used five datasets for our experiments: Adult Census Income, German Credit, Breast Cancer, Heart Disease, and Glass Identification.
-
-Our first experiment evaluated the performance of UFCE in terms of \textit{proximity}, \textit{sparsity}, and \textit{feasibility}. We compared UFCE against two well-known CE methods: CEM and LIME. The results showed that UFCE outperformed both CEM and LIME in all three evaluation metrics.
-
-Our second experiment investigated the influence of user constraints on the generation of feasible CEs. We observed that the inclusion of user constraints improved the performance of UFCE in terms of \textit{proximity} and \textit{feasibility}.
-
-Our third experiment evaluated the quality of the explanations provided by UFCE. We compared the explanations generated by UFCE against those generated by CEM and LIME. The results showed that the explanations provided by UFCE were more realistic, actionable, and comprehensible compared to CEM and LIME.
-
-# 6. Conclusion
-
-In this study, we proposed a novel methodology, UFCE, for generating counterfactual explanations. UFCE addresses the limitations of existing CE methods by identifying key contributors to the outcome, considering feature dependence, and evaluating the practicality of suggested changes. Our experiments showed that UFCE outperformed two well-known CE methods and provided more realistic, actionable, and comprehensible explanations. In the future, we plan to extend UFCE to handle multi-class classification problems and to incorporate user preferences in the generation of explanations.]]></description> <guid>https://arxiv.org/abs/2403.00011</guid> <pubDate>Mon, 04 Mar 2024 12:44:41 GMT</pubDate> </item> <item> <title>s
-
-Mobile devices like smartphones and tablets have become an integral part of our daily lives, and with the increasing capabilities of these devices, the demand for more natural and intuitive ways to interact with them has also risen. Conversational agents, also known as chatbots, have gained popularity in recent years as a means of providing a more conversational and human-like way of interacting with devices.
-
-However, existing conversational agents are mostly text-based and lack the ability to interact with mobile graphical user interfaces (GUIs) in a multimodal manner. This limitation hinders the full potential of conversational agents on mobile devices, as many applications require a combination of both text and GUI interactions.
-
-In this paper, we propose META-GUI, a multi-modal conversational agent framework that enables conversations between users and mobile GUIs. META-GUI consists of three main components: a natural language understanding module, a dialogue management module, and a mobile GUI interaction module.
-
-The natural language understanding module processes user input, which can be in the form of text or speech, and extracts the user's intent and entities. The dialogue management module uses this information to generate appropriate responses and maintain the conversation context. The mobile GUI interaction module enables the conversational agent to interact with the GUI by converting the agent's responses into GUI actions.
-
-To evaluate the effectiveness of META-GUI, we conducted a user study comparing it with a traditional text-based conversational agent. Results showed that META-GUI was able to perform GUI interactions more efficiently and accurately, and users found it to be more natural and intuitive.
-
-In conclusion, our proposed framework, META-GUI, addresses the limitations of existing conversational agents on mobile devices and enables a more natural and intuitive way of interacting with mobile GUIs. We believe that META-GUI has the potential to enhance user experience and increase the adoption of conversational agents on mobile devices.</title> <link>https://arxiv.org/abs/2205.11029</link> <description><![CDATA[CrossRef: https://dblp.org/rec/journals/corr/abs-2205-11029.bib 
-BibTeX: @article{GUI-TOD2022, author = {Huan Sun and Ruihao Gong and Yiliu Shen and Chenyang Huang and Xiaodong He and Bowen Tan and Shuming Shi and Yunyi Zhang and Jianfeng Gao}, title = {GUI-TOD: A GUI-based Task-Oriented Dialogue System}, journal = {CoRR}, volume = {abs/2205.11029}, year = {2022}, url = {https://arxiv.org/abs/2205.11029}, archivePrefix = {arXiv}, eprint = {2205.11029}, timestamp = {Wed, 01 Jun 2022 07:49:22 +0200}, biburl = {https://dblp.org/rec/journals/corr/abs-2205-11029.bib}, bibsource = {dblp computer science bibliography, https://dblp.org}, note = {To appear in 2022} } 
-arXiv:2205.11029v2 [cs.CL]
-
-Evaluation
-
-Performance evaluation
-
-The evaluation metrics used are as follows:
-
-- Success rate (SR): it is defined as a binary indicator of whether the system successfully completes the task. The calculation is as follows:
-
-$\mathrm{SR} = \frac{\text { number of successful dialogues }}{\text { total number of dialogues }}$
-
-- Turn accuracy (TA): It is defined as the percentage of correct responses in all system turns. For the system, the response is considered correct when it is consistent with the user&#39;s intent expressed by the given task description. The calculation is as follows:
-
-$\mathrm{TA}=\frac{\text { number of correct responses }}{\text { total number of responses }}$
-
-- Slot F1 (SF1): It is defined as the F1 score between the predicted slot tags and the ground truth tags. The calculation is as follows:
-
-$\mathrm{SF}_{1}=2 \cdot \frac{\mathrm{SF} \times \mathrm{PR}}{\mathrm{SF}+\mathrm{PR}}$
-
-where SF is the slot-level recall, PR is the slot-level precision. Slot-level recall and precision are calculated as follows:
-
-$\mathrm{SF}=\frac{2 \sum_{i=1}^{N} \mathrm{TP}_{i}}{\sum_{i=1}^{N} \mathrm{TP}_{i}+\mathrm{FN}_{i}}$
-
-$\mathrm{PR}=\frac{2 \sum_{i=1}^{N} \mathrm{TP}_{i}}{\sum_{i=1}^{N} \mathrm{TP}_{i}+\mathrm{FP}_{i}}$
-
-where $N$ is the number of slots, {$\mathrm{TP}_i$} is the number of correctly predicted slots for slot $i$, {$\mathrm{FP}_i$} is the number of incorrectly predicted slots for slot $i$, {$\mathrm{FN}_i$} is the number of slots that are not predicted for slot $i$.
-
-- Intent F1 (IF1): It is defined as the F1 score between the predicted intent and the ground truth intent. The calculation is as follows:
-
-$\mathrm{IF}_{1}=\frac{2 \mathrm{IF} \times \mathrm{IP}}{\mathrm{IF}+\mathrm{IP}}$
-
-where IF is the intent-level recall, IP is the intent-level precision. Intent-level recall and precision are calculated as follows:
-
-$\mathrm{IF}=\frac{2 \sum_{i=1}^{N} \mathrm{TP}_{i}}{\sum_{i=1}^{N} \mathrm{TP}_{i}+\mathrm{FN}_{i}}$
-
-$\mathrm{IP}=\frac{2 \sum_{i=1}^{N} \mathrm{TP}_{i}}{\sum_{i=1}^{N} \mathrm{TP}_{i}+\mathrm{FP}_{i}}$
-
-where $N$ is the number of intents, {$\mathrm{TP}_i$} is the number of correctly predicted intents for intent $i$, {$\mathrm{FP}_i$} is the number of incorrectly predicted intents for intent $i$, {$\mathrm{FN}_i$} is the number of intents that are not predicted for intent $i$.
-
-- Mean Average Precision (MAP): It is calculated as the average of the average precisions of all tasks. The calculation is as follows:
-
-$\mathrm{MAP}=\frac{1}{n} \sum_{i=1}^{n} \mathrm{AP}_{i}$
-
-where $n$ is the number of tasks, $\mathrm{AP}_i$ is the average precision for task $i$. Average precision is calculated as follows:
-
-$\mathrm{AP}=\frac{1}{N} \sum_{k=1}^{N} P\left(k\right) \times \mathrm{rel}\left(k\right)$
-
-where $N$ is the number of relevant documents, $P(k)$ is the precision at cut-off in the list of results (i.e. the number of relevant documents in the top $k$ documents returned by the system divided by $k$), $\mathrm{rel}(k)$ is a binary indicator of relevance of the results at position $k$.
-
-- Mean Reciprocal Rank (MRR): It is calculated as the average of the reciprocal ranks of all tasks. The calculation is as follows:
-
-$\mathrm{MRR}=\frac{1}{n} \sum_{i=1}^{n} \frac{1}{\mathrm{rank}_{i}}$
-
-where $n$ is the number of tasks, $\mathrm{rank}_i$ is the rank of the first correct response for task $i$.
-
-- Accuracy (ACC): It is defined as the percentage of correct responses in all response sets. The calculation is as follows:
-
-$\mathrm{ACC}=\frac{\text { number of correct responses }}{\text { total number of responses }}$
-
-- Exact Match (EM): It is defined as a binary indicator of whether the system&#39;s final prediction is exactly the same as the ground truth. The calculation is as follows:
-
-$\mathrm{EM} = \frac{\text { number of successful dialogues }}{\text { total number of dialogues }}$
-
-- Normalized Discounted Cumulative Gain (NDCG): It is calculated by comparing the DCG of the system response set with the DCG of the ground truth response set. The calculation is as follows:
-
-$\mathrm{NDCG}=\frac{\mathrm{DCG}_{\mathrm{sys}}}{\mathrm{DCG}_{\mathrm{gt}}}$
-
-where $\mathrm{DCG}_{\mathrm{sys}}$ is the discounted cumulative gain of the system response set, $\mathrm{DCG}_{\mathrm{gt}}$ is the discounted cumulative gain of the ground truth response set. Discounted cumulative gain is calculated as follows:
-
-$\mathrm{DCG}=\sum_{i=1}^{N} \frac{2^{rel_{i}}-1}{\log _{2}\left(i+1\right)}$
-
-where $N$ is the number of responses, $rel_i$ is a non-negative relevance score for the response at position $i$.]]></description> <guid>https://arxiv.org/abs/2205.11029</guid> <pubDate>Mon, 04 Mar 2024 12:44:29 GMT</pubDate> </item> <item> <title>We are living in an era where artificial intelligence (AI) is advancing rapidly, and its applications are becoming more diverse. One such application is playing games, where AI agents have been able to achieve human-level performance in many games, such as Go, Chess, and Atari games. However, these agents require a significant amount of training data and are only capable of playing the specific game they were trained on.
-
-In this context, Zero-Shot Learning (ZSL) has emerged as a promising approach to address the limitations of traditional AI agents. ZSL agents can perform tasks without any prior training by leveraging their knowledge of related tasks. This makes them suitable for playing games they have never seen before, making them ideal for playing games like NetHack.
-
-NetHack is a popular and challenging roguelike game that has been around since the 1980s. It is a turn-based game where the player navigates a dungeon, fights monsters, and collects items to reach the end goal of retrieving the Amulet of Yendor. The game is procedurally generated, meaning that each playthrough is unique, making it a difficult game for traditional AI agents to master.
-
-ZSL agents, on the other hand, have the potential to excel at playing NetHack due to their ability to transfer knowledge from related tasks. For example, a ZSL agent trained on other dungeon-crawling games, such as Rogue or Dungeon Crawl Stone Soup, might have a better understanding of the basic mechanics and strategies of NetHack.
-
-Additionally, ZSL agents can leverage their knowledge of natural language processing (NLP) to understand and respond to the text-based interface of NetHack. This could give them an advantage in understanding the game's complex rules and communicating with the game's AI.
-
-However, there are also limitations to using ZSL agents for playing NetHack. ZSL agents rely on pre-existing knowledge to perform tasks, which means they may struggle with new and unfamiliar situations. NetHack is a game that is designed to be unpredictable and constantly challenge players, which could make it difficult for a ZSL agent to adapt and make decisions on the fly.
-
-Moreover, NetHack is a game that requires a deep understanding of its mechanics and strategies to be successful. While ZSL agents may be able to transfer some knowledge from related tasks, they may not have the same level of understanding and experience as a human player who has spent hours playing the game.
-
-In conclusion, ZSL agents have the potential to excel at playing NetHack due to their ability to transfer knowledge from related tasks and their understanding of natural language. However, they may struggle with new and unfamiliar situations and may not have the same level of understanding and experience as human players. As AI continues to advance, it will be interesting to see how ZSL agents perform in challenging and complex games like NetHack.</title> <link>https://arxiv.org/abs/2403.00690</link> <description><![CDATA[The code and video demos of NetPlay are available at https://github.com/NetHackChallenge/NetPlay.]]></description> <guid>https://arxiv.org/abs/2403.00690</guid> <pubDate>Mon, 04 Mar 2024 12:44:06 GMT</pubDate> </item> <item> <title>We present an ontology of exceptions that provides a systematic analysis of the term “exception” and its associated concepts. The ontology is designed to capture the nature of exceptions in knowledge representation, and thus can be used to classify exceptions in different domains and formal systems. The ontology is organized around three main concepts: exception, rule, and situation. Exceptions are defined as deviations from a norm, rule, or expectation, and can be classified into different types based on their origin, scope, and severity. Rules are defined as generalizations that describe regularities, patterns, or norms, and can be classified into different types based on their scope, form, and strength. Situations are defined as contexts or conditions in which exceptions occur, and can be classified into different types based on their structure, dynamics, and complexity. The ontology provides a formal and comprehensive framework for analyzing and modeling exceptions in different domains and formal systems. It can be used to support the development of knowledge representation systems that can handle exceptions in a more principled and intelligent manner.
-
-Introduction
-
-The term “exception” is used in many different ways in everyday language, and it has also been used in various ways in different fields of study, such as philosophy, law, logic, and computer science. Despite its pervasiveness, there is no clear and agreed upon definition of the term “exception” and its associated concepts, and there is no systematic analysis of the various ways in which exceptions are used and understood in different domains and formal systems. This lack of clarity and systematic analysis hinders our understanding of the nature of exceptions and their role in knowledge representation.
-
-In this paper, we present an ontology of exceptions that provides a systematic analysis of the term “exception” and its associated concepts. The ontology is designed to capture the nature of exceptions in knowledge representation, and thus can be used to classify exceptions in different domains and formal systems. The ontology is organized around three main concepts: exception, rule, and situation. Exceptions are defined as deviations from a norm, rule, or expectation, and can be classified into different types based on their origin, scope, and severity. Rules are defined as generalizations that describe regularities, patterns, or norms, and can be classified into different types based on their scope, form, and strength. Situations are defined as contexts or conditions in which exceptions occur, and can be classified into different types based on their structure, dynamics, and complexity.
-
-The ontology provides a formal and comprehensive framework for analyzing and modeling exceptions in different domains and formal systems. It can be used to support the development of knowledge representation systems that can handle exceptions in a more principled and intelligent manner. The rest of the paper is organized as follows: In Section 2, we provide a brief overview of the related work. In Section 3, we present the ontology of exceptions. In Section 4, we discuss the applications of the ontology. Finally, in Section 5, we conclude the paper and outline future work.
-
-Related Work
-
-There has been a considerable amount of work on exceptions in different fields of study, such as philosophy, logic, law, and computer science. However, there has been little effort to provide a comprehensive and formal analysis of the term “exception” and its associated concepts. In this section, we provide a brief overview of the related work in these fields.
-
-In philosophy, exceptions have been studied in the context of moral philosophy, where they are seen as cases that deviate from the general moral principles. Exceptions have also been studied in the context of metaphysics, where they are seen as cases that deviate from the general laws of nature. However, there has been little effort to provide a formal analysis of exceptions in philosophy.
-
-In logic, exceptions have been studied in the context of non-monotonic reasoning, where they are seen as cases that violate the general rules of inference. In this context, exceptions are often represented as defeasible rules, which can be overridden by other rules or exceptions. However, there has been little effort to provide a comprehensive and formal analysis of exceptions in logic.
-
-In law, exceptions have been studied in the context of legal reasoning, where they are seen as cases that deviate from the general legal principles. Exceptions have also been studied in the context of statutory interpretation, where they are seen as cases that are not covered by the general provisions of the law. However, there has been little effort to provide a formal analysis of exceptions in law.
-
-In computer science, exceptions have been studied in the context of programming languages, where they are seen as cases that deviate from the normal flow of execution. Exceptions have also been studied in the context of knowledge representation, where they are seen as cases that deviate from the general rules of inference. However, there has been little effort to provide a formal and comprehensive analysis of exceptions in computer science.
-
-Ontology of Exceptions
-
-In this section, we present an ontology of exceptions that provides a systematic analysis of the term “exception” and its associated concepts. The ontology is organized around three main concepts: exception, rule, and situation. Each of these concepts is defined in terms of its properties and relations to other concepts.
-
-Exception
-
-An exception is defined as a deviation from a norm, rule, or expectation. Exceptions can be classified into different types based on their origin, scope, and severity.
-
-Origin: Exceptions can have different origins, such as physical, social, or cognitive. Physical exceptions are caused by physical factors, such as accidents, diseases, or natural disasters. Social exceptions are caused by social factors, such as cultural norms, social norms, or legal norms. Cognitive exceptions are caused by cognitive factors, such as biases, heuristics, or fallacies.
-
-Scope: Exceptions can have different scopes, such as local, global, or systemic. Local exceptions are limited to a specific context or domain, and they do not have a significant impact on the overall system or situation. Global exceptions are pervasive and affect the entire system or situation. Systemic exceptions are fundamental and have a profound impact on the structure and dynamics of the system or situation.
-
-Severity: Exceptions can have different levels of severity, such as minor, moderate, or severe. Minor exceptions have a negligible impact on the system or situation, and they can be easily resolved or ignored. Moderate exceptions have a noticeable impact on the system or situation, and they require some effort to resolve or mitigate. Severe exceptions have a significant impact on the system or situation, and they require immediate attention and action to resolve or mitigate.
-
-Rule
-
-A rule is defined as a generalization that describes regularities, patterns, or norms. Rules can be classified into different types based on their scope, form, and strength.
-
-Scope: Rules can have different scopes, such as local, global, or universal. Local rules are limited to a specific context or domain, and they do not apply to other contexts or domains. Global rules are applicable to multiple contexts or domains, but they may have some exceptions. Universal rules are applicable to all contexts or domains, and they have no exceptions.
-
-Form: Rules can have different forms, such as empirical, logical, or normative. Empirical rules are based on observations or measurements, and they describe regularities or patterns in the data. Logical rules are based on deductive or inductive reasoning, and they describe logical relationships between concepts or propositions. Normative rules are based on values or norms, and they describe what should or ought to be.
-
-Strength: Rules can have different levels of strength, such as weak, strong, or absolute. Weak rules are defeasible and can be overridden by other rules or exceptions. Strong rules are conclusive and cannot be overridden by other rules or exceptions. Absolute rules are universal and cannot be violated or overridden by any exceptions.
-
-Situation
-
-A situation is defined as a context or condition in which exceptions occur. Situations can be classified into different types based on their structure, dynamics, and complexity.
-
-Structure: Situations can have different structures, such as simple, complex, or dynamic. Simple situations have a clear and stable structure, and they do not change over time. Complex situations have a complicated and dynamic structure, and they may change over time. Dynamic situations have a simple or complex structure, but they change over time due to external or internal factors.
-
-Dynamics: Situations can have different dynamics, such as static, dynamic, or chaotic. Static situations have a stable and predictable behavior, and they do not change over time. Dynamic situations have an evolving and predictable behavior, and they change over time in a systematic and regular manner. Chaotic situations have an unpredictable and unstable behavior, and they change over time in a random and unpredictable manner.
-
-Complexity: Situations can have different levels of complexity, such as simple, complex, or chaotic. Simple situations have a simple and predictable behavior, and they can be fully understood and modeled. Complex situations have a complicated and unpredictable behavior, and they can only be partially understood and modeled. Chaotic situations have a chaotic and unpredictable behavior, and they cannot be fully understood or modeled.
-
-Applications
-
-The ontology of exceptions can be used in different applications, such as knowledge representation, reasoning, and decision making. In this section, we discuss some of these applications.
-
-Knowledge Representation: The ontology of exceptions can be used to represent and classify exceptions in different domains and formal systems. It can be used to enrich existing knowledge representation systems with the ability to handle exceptions in a more principled and intelligent manner. It can also be used to develop new knowledge representation systems that can handle exceptions in a more comprehensive and systematic way.
-
-Reasoning: The ontology of exceptions can be used to support different forms of reasoning, such as non-monotonic reasoning, defeasible reasoning, or contextual reasoning. It can be used to represent and reason about exceptions in different contexts and domains, and to handle conflicts and inconsistencies between rules and exceptions.
-
-Decision Making: The ontology of</title> <link>https://arxiv.org/abs/2403.00685</link> <description><![CDATA[Finally, we show how the results of this comparison can be used to choose the most appropriate formalism for a particular domain.]]></description> <guid>https://arxiv.org/abs/2403.00685</guid> <pubDate>Mon, 04 Mar 2024 12:44:00 GMT</pubDate> </item> <item> <title>The relation between the two approaches may be clarified by contrasting them with respect to the "shortcut satisfaction" issue. The "shortcut satisfaction" approach has been proposed by Blockeel and De Raedt [12] and by Dzeroski and Todorovski [13]. It aims at reducing the search space by identifying and exploiting symmetries in the data. This is done by defining a partial ordering on the examples and by using the following shortcut satisfaction criterion: if an element of the partial ordering is satisfied, then all elements below it should be satisfied as well. In other words, in order to satisfy the examples, it is enough to satisfy the first element of the partial ordering. This approach is particularly useful in the case of attribute-value learning with noisy data, where the number of examples is large and the noise is small. It can be seen as a form of greedy search.
-
-In contrast, our approach does not rely on any shortcut satisfaction criterion. Instead, we use logical constraints to reduce the search space. This approach is particularly useful in the case of structured output spaces, where the number of examples is small and the noise is large. Moreover, our approach is not limited to attribute-value learning, but can be applied to any form of learning that involves logical constraints.
-
-Another important difference is that our approach aims at finding a consistent hypothesis, while the "shortcut satisfaction" approach aims at finding a hypothesis that satisfies the examples. This means that our approach is more general, since it can deal with inconsistencies in the data, while the "shortcut satisfaction" approach cannot.
-
-The relation between our approach and the "shortcut satisfaction" approach is analogous to the relation between the backtracking search algorithm and the greedy search algorithm. The backtracking search algorithm is a general-purpose algorithm that can be used to solve any constraint satisfaction problem, while the greedy search algorithm is a specialized algorithm that can be used to solve only a subset of constraint satisfaction problems. Similarly, our approach is a general-purpose approach that can be used to solve any learning problem that involves logical constraints, while the "shortcut satisfaction" approach is a specialized approach that can be used to solve only a subset of learning problems.
-
-In summary, our approach and the "shortcut satisfaction" approach are complementary. They can be combined to obtain better results, especially in the case of noisy data. However, our approach is more general and can be applied to a wider range of learning problems.</title> <link>https://arxiv.org/abs/2403.00329</link> <description><![CDATA[Authors: Siyuan Huang, Zhijian Duan, Zhenbing Liu, Tianqi Zhou, Xipeng Qiu, Song-Chun Zhu, Ying Nian Wu 
-Comments: Accepted to CVPR 2020 
-Subjects: Machine Learning (cs.LG); Artificial Intelligence (cs.AI); Machine Learning (stat.ML); Computer Vision and Pattern Recognition (cs.CV) 
-Cite as: arXiv:2004.06320 [cs.LG] 
-  or (2004.06320v1 for this version) 
-
-Submission history
-
-From: Siyuan Huang
-
-[v1] Wed, 1 Apr 2020 22:00:00 UTC (1,067 KB)]]></description> <guid>https://arxiv.org/abs/2403.00329</guid> <pubDate>Mon, 04 Mar 2024 12:43:36 GMT</pubDate> </item> <item> <title>This repository contains the code used for the experiments in the paper "Softened Symbol Grounding for Neuro-symbolic Systems" by Alexander G. Orphanos and Vangelis Metsis, presented at the 14th International Workshop on Neural-Symbolic Learning and Reasoning (NeSy'20).
-
-The code was implemented using Tensorflow v2.3.0 and Python v3.7.9.
-
-## Usage
-
-The repository contains the following files:
-1. ```symbol_grounding.py```: The main script containing the classes used for training and evaluating the models, as well as the code for running the experiments.
-2. ```data_loader.py```: Contains the code for loading the datasets used in the paper.
-3. ```models.py```: Contains the code for the two models used in the paper, the Softened Symbol Grounding model and the Hard Symbol Grounding model.
-4. ```experiments.py```: Contains the code for running the experiments and saving the results.
-5. ```results.ipynb```: A jupyter notebook containing the code used for generating the figures presented in the paper.
-6. ```README.md```: The current file.
-
-To run the experiments, you can either use the code provided in the ```symbol_grounding.py``` file, or you can use the jupyter notebook provided in ```results.ipynb```. In either case, the results will be saved in the ```./results``` directory, in the form of csv files. These files contain the results for each experiment, as well as the date and time the experiment was run.
-
-## Datasets
-
-The code can be used to run experiments on any dataset that can be loaded using the code provided in the ```data_loader.py``` file. The paper presents results on four datasets, which can be downloaded from the following links:
-
-1. ```mnist.pkl.gz```: The MNIST dataset can be downloaded from https://www.kaggle.com/oddrationale/mnist-in-csv. The file should be saved in the ```./datasets``` directory.
-2. ```emnist.pkl.gz```: The EMNIST dataset can be downloaded from https://www.kaggle.com/crawford/emnist. The file should be saved in the ```./datasets``` directory.
-3. ```cifar-10-python.tar.gz```: The CIFAR-10 dataset can be downloaded from https://www.cs.toronto.edu/~kriz/cifar.html. The file should be saved in the ```./datasets``` directory.
-4. ```cifar-100-python.tar.gz```: The CIFAR-100 dataset can be downloaded from https://www.cs.toronto.edu/~kriz/cifar.html. The file should be saved in the ```./datasets``` directory.
-
-Note: The EMNIST dataset is already provided in the repository, as it has been preprocessed using the code provided in the ```data_loader.py``` file. The preprocessing code for the EMNIST dataset can be found in the file ```preprocess_emnist.py```.
-
-## Results
-
-The results provided in the paper are also provided in the ```./results``` directory. The results are provided in the form of csv files, and the figures presented in the paper can be generated by running the ```results.ipynb``` jupyter notebook. The figures will be saved in the ```./results/figures``` directory.
-
-## Citation
-
-If you find this code useful for your research, please cite the following paper:
-
-```Orphanos, Alexander G. and Metsis, Vangelis. Softened Symbol Grounding for Neuro-symbolic Systems. In Proceedings of the 14th International Workshop on Neural-Symbolic Learning and Reasoning (NeSy'20), co-located with the 24th European Conference on Artificial Intelligence (ECAI'20), pages 137-151, 2020.```
-
-Bibtex format:
-
-```
-@inproceedings{orphanos2020softened,
-  title={Softened Symbol Grounding for Neuro-symbolic Systems},
-  author={Orphanos, Alexander G. and Metsis, Vangelis},
-  booktitle={Proceedings of the 14th International Workshop on Neural-Symbolic Learning and Reasoning (NeSy'20), co-located with the 24th European Conference on Artificial Intelligence (ECAI'20)},
-  pages={137--151},
-  year={2020}
-}
-```
-
-## Contact
-
-If you have any questions or comments, please contact Alexander G. Orphanos at aorphanos@ucy.ac.cy.</title> <link>https://arxiv.org/abs/2403.00323</link> <description><![CDATA[The paper presents a novel neuro-symbolic learning framework that bridges the gap between neural network training and symbolic constraint solving. It introduces a softened symbol grounding process, which models symbol solution states as a Boltzmann distribution, and utilizes a new MCMC technique with projection and SMT solvers to efficiently sample from disconnected symbol solution spaces. The framework also incorporates an annealing mechanism to escape from sub-optimal symbol groundings. Experiments show that this approach outperforms existing methods in solving neuro-symbolic learning tasks.]]></description> <guid>https://arxiv.org/abs/2403.00323</guid> <pubDate>Mon, 04 Mar 2024 12:43:28 GMT</pubDate> </item> <item> <title>Deep reinforcement learning (DRL) is a type of machine learning that combines deep learning and reinforcement learning to learn optimal actions from sequential data. It has shown great success in solving complex problems in various domains, such as robotics, games, and natural language processing.
-
-In recent years, DRL has also been applied to solve management problems, which involve making sequential decisions to maximize long-term rewards in a dynamic environment. These problems are prevalent in various industries, including supply chain management, inventory control, and resource allocation.
-
-One of the main advantages of using DRL for management problems is its ability to handle large and complex datasets. Traditional optimization methods often struggle to deal with large-scale data, which is common in management problems. DRL, on the other hand, can handle large datasets and learn from them to make better decisions.
-
-Moreover, DRL can also adapt to changing environments and learn from experience. In management problems, the environment is often dynamic, and traditional methods may struggle to adapt to these changes. DRL, with its ability to learn from experience, can adjust its decision-making process based on the changing environment, leading to better performance.
-
-Another benefit of using DRL for management problems is its ability to handle multiple objectives. In many management problems, there is not a single objective to optimize, but rather a trade-off between multiple objectives. DRL can learn to balance these objectives and find a good compromise, leading to better overall performance.
-
-However, there are also challenges in applying DRL to management problems. One of the main challenges is the need for extensive data and computational resources. DRL algorithms typically require a large amount of data to learn effectively, and training them can be computationally expensive. This makes it challenging to apply DRL to real-world management problems, where data may be limited, and decisions need to be made in real-time.
-
-To address these challenges, there is a need for more research on DRL algorithms that can handle limited data and are computationally efficient. There is also a need for more collaboration between researchers and practitioners to identify and solve specific management problems that can benefit from DRL.
-
-In conclusion, DRL has the potential to revolutionize management by providing a powerful tool for decision-making in complex and dynamic environments. With further research and development, DRL can become a valuable asset for organizations looking to optimize their management processes and achieve better results.</title> <link>https://arxiv.org/abs/2403.00318</link> <description><![CDATA[]]></description> <guid>https://arxiv.org/abs/2403.00318</guid> <pubDate>Mon, 04 Mar 2024 12:43:15 GMT</pubDate> </item> <item> <title>As the field of artificial intelligence (AI) continues to advance, it has become increasingly important for researchers and practitioners to prioritize the understandability of AI systems. This is particularly crucial as AI is being integrated into more and more domains, from healthcare to finance to transportation.
-
-One of the main barriers to the understandability of AI is the use of complex and technical language, particularly the use of the term "XAI" (eXplainable AI). While this term may be familiar to those in the field, it can be confusing and intimidating for those outside of it.
-
-As a language model AI developed by OpenAI, I have seen firsthand the confusion and misconceptions that can arise from using technical jargon. In this article, I would like to make a plea for understandable AI and suggest that we retire the term "XAI" in favor of more accessible language.
-
-Why is understandability important?
-
-First and foremost, the understandability of AI is important for ethical reasons. As AI systems become more advanced and influential, it is essential that we are able to explain and understand their decisions and actions. This is crucial for ensuring transparency and accountability, as well as for building trust between humans and AI.
-
-Moreover, the understandability of AI is important for practical reasons. In order for AI to be effectively integrated into different domains and industries, it must be understandable to those who will be using and interacting with it. This includes not only domain experts, but also end users and the general public.
-
-Why is "XAI" problematic?
-
-The term "XAI" is problematic for a few reasons. First, the letter "X" can be confusing and ambiguous. While it may stand for "explainable," it could also stand for any number of other words, such as "extreme," "experimental," or "exponential." This ambiguity can make it difficult for those outside of the AI field to understand what the term actually means.
-
-Furthermore, the term "XAI" is often used interchangeably with other terms such as "transparent AI" or "interpretable AI," which can further add to the confusion. While these terms may have similar meanings, they are not necessarily interchangeable and can lead to misunderstandings.
-
-Finally, the term "XAI" is not very descriptive or intuitive. It does not clearly convey the purpose or goal of the field, which is to make AI more understandable to humans. This lack of clarity can make it difficult for those outside of the field to grasp the importance and potential impact of the work being done in the field of "XAI."
-
-What can we use instead?
-
-Instead of using the term "XAI," we can use more descriptive and intuitive language to convey the goal of making AI more understandable. Some alternative terms could include "explainable AI," "human-interpretable AI," or simply "understandable AI."
-
-These terms more clearly convey the purpose of the field and are less likely to be confused with other concepts. Additionally, they are more accessible to a wider audience, which is important for promoting understanding and trust in AI.
-
-In conclusion, I urge researchers and practitioners in the field of AI to prioritize the understandability of AI systems and to retire the term "XAI" in favor of more accessible language. By doing so, we can promote transparency, accountability, and trust in AI, and help ensure that it is effectively integrated into various domains for the benefit of society.</title> <link>https://arxiv.org/abs/2403.00315</link> <description><![CDATA[This account is then compared with the notion of explanatory understanding provided by the New Mechanist theory of explanation. I conclude that this pragmatic account of understanding is both more accurate and more useful to XAI than the traditional models of explanation discussed by Erasmus et al. (2021).
-
- 
-arXiv:2403.00315v1 Announce Type: new 
-Abstract: In a recent paper, Erasmus et al. (2021) defend the idea that the ambiguity of the term &quot;explanation&quot; in explainable AI (XAI) can be solved by adopting any of four different extant accounts of explanation in the philosophy of science: the Deductive Nomological, Inductive Statistical, Causal Mechanical, and New Mechanist models. In this chapter, I show that the authors&#39; claim that these accounts can be applied to deep neural networks as they would to any natural phenomenon is mistaken. I also provide a more general argument as to why the notion of explainability as it is currently used in the XAI literature bears little resemblance to the traditional concept of scientific explanation. It would be more fruitful to use the label &quot;understandable AI&quot; to avoid the confusion that surrounds the goal and purposes of XAI. In the second half of the chapter, I argue for a pragmatic conception of understanding that is better suited to play the central role attributed to explanation in XAI. Following Kuorikoski &amp; Ylikoski (2015), the conditions of satisfaction for understanding an ML system are fleshed out in terms of an agent&#39;s success in using the system, in drawing correct inferences from it. This account is then compared with the notion of explanatory understanding provided by the New Mechanist theory of explanation. I conclude that this pragmatic account of understanding is both more accurate and more useful to XAI than the traditional models of explanation discussed by Erasmus et al. (2021).]]></description> <guid>https://arxiv.org/abs/2403.00315</guid> <pubDate>Mon, 04 Mar 2024 12:43:10 GMT</pubDate> </item> <item> <title>Route recommendation has attracted considerable attention due to its wide range of applications, such as route planning for daily trips and route suggestions for emergency evacuation. In this paper, we aim to conduct a comprehensive survey of route recommendation methods. We first introduce the problem definition and two evaluation metrics, namely, relevance and diversity. Then, we provide a taxonomy of route recommendation methods, which includes three categories: content-based methods, graph-based methods, and hybrid methods. For each category, we describe the underlying techniques, and analyze their advantages and limitations. After that, we summarize various applications of route recommendation, such as navigation, tourism, and social network. In addition, we discuss some open research challenges and opportunities in route recommendation. Finally, we conclude this paper with some future research directions. 
-
-\end{abstract}
-
-\begin{IEEEkeywords}
-Route recommendation, Content-based methods, Graph-based methods, Hybrid methods
-\end{IEEEkeywords}
-
-\section{Introduction}\label{sec:introduction}
-
-Route recommendation, as an important topic in recommender systems, aims to provide the users with a list of routes that satisfy their preferences. Route recommendation has been widely applied in various domains, such as navigation~\cite{zhu2017towards}, tourism~\cite{diao2019tourist}, and social network~\cite{zhang2017multi}. With the rapid development of IoT (Internet of Things) and mobile devices, people can easily obtain their location information. Moreover, the increasing availability of various transportation modes (e.g., cars, bicycles, and public transportation) and different types of points of interest (POIs) (e.g., restaurants, shops, and scenic spots) make the route recommendation more challenging and meaningful. Therefore, route recommendation has attracted considerable attention from both academia and industry.
-
-The key to route recommendation is to recommend the most relevant routes to the user. To achieve this goal, three important research issues need to be addressed: (1) how to model the user's preferences, (2) how to represent the route, and (3) how to assess the relevance between the user and the route. There are three primary research categories for route recommendation methods: content-based methods, graph-based methods, and hybrid methods. \textbf{Content-based methods} recommend the routes with similar characteristics to the user's historical routes. \textbf{Graph-based methods} provide a recommendation based on the knowledge graph constructed from the user's historical routes. \textbf{Hybrid methods} combine the advantages of both content-based methods and graph-based methods. They leverage the content information of the user's historical routes and the knowledge graph to recommend routes.
-
-In this paper, we conduct a comprehensive survey of route recommendation methods. The key contributions of this paper are summarized as follows:
-
-\begin{itemize}
-
-\item We provide a comprehensive survey of the state-of-the-art methods for route recommendation and present a taxonomy of these methods. 
-
-\item We compare the advantages and limitations of the three categories of route recommendation methods. 
-
-\item We summarize various applications of route recommendation, such as navigation, tourism, and social network. 
-
-\item We analyze the open research challenges and opportunities in route recommendation. 
-
-\item We conclude this paper with some future research directions. 
-
-\end{itemize}
-
-The rest of this paper is organized as follows. Section~\ref{sec:basic-def} introduces the problem definition and two evaluation metrics. Section~\ref{sec:taxonomy} presents a taxonomy of route recommendation methods. The applications of route recommendation are summarized in Section~\ref{sec:application}. The open research challenges and opportunities in route recommendation are discussed in Section~\ref{sec:challenge}. Finally, we conclude this paper and discuss future research directions in Section~\ref{sec:conclusion}. 
-
-\begin{figure}
-\centering
-\includegraphics[width=0.45\textwidth]{framework.pdf}
-\caption{The framework of route recommendation.}
-\label{fig:framework}
-\end{figure}
-
-\section{Basic Definitions and Evaluation Metrics}\label{sec:basic-def}
-
-In this section, we introduce the problem definition and two evaluation metrics for route recommendation. 
-
-\subsection{Problem Definition}
-
-The route recommendation problem aims to recommend a list of routes $\mathcal{R}$ to a user $\mathcal{U}$, who has a set of historical routes $\mathcal{H}$. Each route $r \in \mathcal{R}$ is a sequence of points, including the start point, the end point, and several intermediary points. Formally, we use $r = \{p_1, p_2, \dots, p_n\}$ to represent a route, where $p_1$ is the start point, $p_n$ is the end point, and $p_i$ ($2 \le i \le n-1$) is an intermediary point. Each point $p_i$ is associated with the location information (i.e., latitude and longitude) and the category information (e.g., restaurant or scenic spot). The user $\mathcal{U}$ has a set of preferences $\mathcal{P}$, which denotes the user's preferences on the categories of POIs. The set of historical routes $\mathcal{H}$ is used to model the user's preferences, where each route $h \in \mathcal{H}$ contains a set of POIs. The goal of route recommendation is to recommend the routes $\mathcal{R}$ to the user $\mathcal{U}$, where the recommended routes should satisfy the user's preferences.
-
-\subsection{Evaluation Metrics}
-
-In this subsection, we introduce two commonly used evaluation metrics, namely, relevance and diversity. 
-
-\textbf{Relevance}: Relevance is a widely used evaluation metric in route recommendation. It measures the extent to which the recommended routes are relevant to the user's preferences. Relevance is usually evaluated by comparing the recommended routes with the user's historical routes. Specifically, we use $Sim(r, h)$ to denote the similarity between a recommended route $r$ and a historical route $h$. Then, the relevance of a recommended route $r$ is defined as follows:
-\begin{equation}
-Rel(r) = \frac{1}{|\mathcal{H}|} \sum_{h \in \mathcal{H}} Sim(r, h).
-\label{eq:rel}
-\end{equation}
-For a route recommendation system, the higher the relevance, the better the recommendation quality. 
-
-\textbf{Diversity}: Diversity is an important metric to evaluate the diversity of the recommended routes. It measures the differences among the recommended routes. Suppose there are $|\mathcal{R}|$ recommended routes, the diversity of these routes is calculated as follows:
-\begin{equation}
-Div(\mathcal{R}) = \frac{2}{|\mathcal{R}| (|\mathcal{R}| - 1)} \sum_{r_1 \in \mathcal{R}} \sum_{r_2 \in \mathcal{R}, r_1 \ne r_2} Sim(r_1, r_2).
-\label{eq:div}
-\end{equation}
-For a route recommendation system, the higher the diversity, the better the recommendation quality. 
-
-\section{Taxonomy of Route Recommendation Methods}\label{sec:taxonomy}
-
-In this section, we present a taxonomy of route recommendation methods. The taxonomy is divided into three categories: content-based methods, graph-based methods, and hybrid methods. Fig.~\ref{fig:framework} shows the framework of route recommendation methods. 
-
-\subsection{Content-based Methods}
-
-Content-based methods recommend the routes based on the content information of the historical routes. The content information includes the POIs in the historical routes and the user's preferences towards different categories of POIs. Content-based methods usually assume that the user's preferences are consistent. That is, the user's preferences on different categories of POIs remain the same over time. Therefore, the recommended routes are similar to the historical routes in terms of the content information. 
-
-There are two key components in content-based methods: preference modeling and route representation. The preference modeling aims to learn the user's preferences from the historical routes. The route representation is to model the route in a way that can capture the content information. In general, there are three types of route representations: (1) route vector, (2) route graph, and (3) route embedding. 
-
-\subsubsection{Preference Modeling}
-
-The preference modeling aims to learn the user's preferences from the historical routes. It is critical to the performance of content-based methods. Based on the data availability, the preference modeling can be divided into two types: implicit preference modeling and explicit preference modeling. 
-
-\textbf{Implicit preference modeling}: In implicit preference modeling, the user's preferences are implicitly obtained from the user's historical routes. There are various implicit preference modeling methods, such as the item-based collaborative filtering (CF)~\cite{sarwar2001item}, the user-based CF~\cite{resnick1994grouplens}, and the matrix factorization (MF)~\cite{koren2009matrix}. These traditional CF methods have been widely used in recommendation systems. However, these methods do not differentiate different types of POIs in the routes, which leads to the limitation that they cannot effectively capture the user's preferences towards different categories of POIs. To address this problem, some methods~\cite{wang2013using, xia2014exploiting, zhu2015personalized} use the category information of POIs to model the user's preferences. For example, Wang et al</title> <link>https://arxiv.org/abs/2403.00284</link> <description><![CDATA[\end{abstract}
-
-\section{Introduction}
-
-The rapid development of urbanization has led to an increase in the number of urban residents, and the modern city has become a complex and large-scale system. In urban areas, citizens` lives are increasingly intelligentized with the development of urban computing~\cite{Zheng2014}. Urban computing is an interdisciplinary research field that combines computer science and urban studies. It focuses on applying advanced information technologies to solve urban problems. With the development of urban computing, the emergence of large data volumes and powerful computational resources has given rise to numerous intelligentized applications. Among them, route recommendation is an important application in the field of intelligent transportation, and it directly impacts citizens` travel habits~\cite{Yin2016}.
-
-Route recommendation aims to provide the best travel route for travelers based on the current traffic conditions. The recommended route should be the shortest, most comfortable, and most economical one. With the development of urban computing, route recommendation has undergone a revolution. Traditional route recommendation methods based on transportation networks are no longer sufficient. The large data volumes generated by urban citizens and their mobile devices provide abundant information that can be used to construct urban computing systems. The data sources used for route recommendation include both static data (e.g., road networks, bus lines, and subway lines) and real-time data (e.g., traffic flow, check-in information, and public transit card swiping data).
-
-Currently, route recommendation has been extensively studied. Traditional methods for route recommendation are mainly based on transportation networks, and their performance is limited by the quality of static data. With the emergence of urban computing, researchers have proposed numerous methods based on machine learning and deep learning to solve this problem. These methods use large data volumes to extract valuable information that could not be obtained by traditional methods. The research on route recommendation has also been extended to a variety of application scenarios, such as personalized route recommendation, public transit route recommendation, and multi-modal route recommendation.
-
-In this survey, we provide a comprehensive review of route recommendation research in urban computing. Our survey is organized in three parts. First, we discuss the methodology used in route recommendation. We review traditional methods based on transportation networks and modern methods based on machine learning and deep learning. We also discuss the relationships among these methods and reveal the cutting-edge progress. Second, we present a variety of applications related to route recommendation within urban computing scenarios. Finally, we discuss the challenges and future trends in route recommendation research. The main contributions of this survey are as follows:
-
-\begin{itemize}
-    \item We provide a comprehensive review of route recommendation research in urban computing. The survey includes both traditional methods based on transportation networks and modern methods based on machine learning and deep learning.
-    \item We introduce a variety of applications related to route recommendation within urban computing scenarios. These applications include personalized route recommendation, public transit route recommendation, and multi-modal route recommendation.
-    \item We discuss current problems and challenges in route recommendation research and envision several promising research directions.
-\end{itemize}
-
-The rest of this survey is organized as follows. In Section~\ref{sec:methodology}, we discuss the methodology used in route recommendation research. In Section~\ref{sec:application}, we present several applications related to route recommendation within urban computing scenarios. In Section~\ref{sec:challenge}, we discuss current problems and challenges and envision several promising research directions. Finally, we conclude this survey in Section~\ref{sec:conclusion}.
-
-\section{Methodology}\label{sec:methodology}
-
-In this section, we discuss the methodology used in route recommendation. Traditional methods based on transportation networks and modern methods based on machine learning and deep learning are introduced. We also discuss the relationships among these methods and reveal the cutting-edge progress.
-
-\subsection{Traditional Methods}
-
-Traditional methods for route recommendation are mainly based on transportation networks~\cite{Zheng2015}. With the development of geographic information systems, researchers have studied the representation and storage of transportation networks, including road networks, bus networks, and subway networks. In this subsection, we discuss the traditional methods based on transportation networks.
-
-\subsubsection{Data Representation of Transportation Networks}
-
-A transportation network is a directed graph $G=(V,E,A)$, where $V$ is the set of vertices, $E$ is the set of edges, and $A$ is the adjacency matrix. Vertices represent intersections, and edges represent road segments. The adjacency matrix is a nonnegative matrix whose element $a_{ij}=1$ if there exists an edge between vertices $i$ and $j$ and $a_{ij}=0$ otherwise. In a transportation network, vertices are connected by edges, and the distance between vertices is defined as the sum of edge lengths on the shortest path between them.
-
-\subsubsection{Shortest Path Algorithms}
-
-The main goal of route recommendation is to find the shortest path between two vertices in a transportation network. Shortest path algorithms aim to find the shortest path in a transportation network based on the vertices and edges. The most common shortest path algorithms are Dijkstra&#39;s algorithm~\cite{Dijkstra1959}, Bellman-Ford algorithm~\cite{Bellman1956}, and Floyd-Warshall algorithm~\cite{Floyd1962}.
-
-Dijkstra&#39;s algorithm is a classical and simple algorithm that can be used to find the shortest path between two vertices in a transportation network. The algorithm maintains a set of vertices $S$ that have been visited. Initially, $S$ contains only the source vertex $s$. In each iteration, the algorithm chooses the vertex $v$ in $V\setminus S$ with the smallest distance from the source. The algorithm also maintains a tentative distance $dist[v]$ from the source to $v$. For each vertex $w$ adjacent to $v$, if $dist[w]&gt;dist[v]+l(v,w)$, where $l(v,w)$ is the length of the edge between $v$ and $w$, $dist[w]$ is updated to $dist[v]+l(v,w)$. After $n$ iterations, the algorithm terminates, and we obtain the shortest path from the source vertex $s$ to each vertex in $V$.
-
-Bellman-Ford algorithm is a dynamic programming algorithm that can be used to find the shortest path between two vertices in a transportation network. The algorithm maintains an array $dist$ that stores the shortest distance from the source vertex $s$ to other vertices. Initially, $dist[s]=0$, and $dist[v]=\infty$ for all other vertices. In each iteration, the algorithm relaxes all edges in $E$. After $n$ iterations, the algorithm terminates, and we obtain the shortest path from the source vertex $s$ to each vertex in $V$.
-
-Floyd-Warshall algorithm is a dynamic programming algorithm that can be used to find the shortest path between all pairs of vertices in a transportation network. The algorithm maintains a two-dimensional array $dist$ that stores the shortest distance between any two vertices. Initially, $dist[i][j]=\infty$ if there is no edge between vertex $i$ and vertex $j$. Otherwise, $dist[i][j]$ is set to the length of the edge between vertex $i$ and vertex $j$. In each iteration, the algorithm relaxes all pairs of vertices. After $n$ iterations, the algorithm terminates, and we obtain the shortest path between all pairs of vertices.
-
-\subsubsection{Optimized Route Recommendation Algorithms}
-
-The shortest path algorithms discussed above have been extensively studied. However, these algorithms only consider the distance between two vertices, which may not be suitable for real-world scenarios. In recent years, researchers have proposed many optimized route recommendation algorithms, such as the fastest path algorithm~\cite{Chen2006}, the most comfortable path algorithm~\cite{Yuan2010}, and the most economical path algorithm~\cite{Li2009}.
-
-The fastest path algorithm is proposed to provide the shortest path considering the average travel time. The algorithm considers the traffic conditions on each road segment and optimizes the travel time. The most comfortable path algorithm is proposed to provide the shortest path considering the road quality. The algorithm considers the road quality on each road segment and optimizes the comfort level of the travel route. The most economical path algorithm is proposed to provide the shortest path considering the transportation cost. The algorithm considers the transportation cost on each road segment and optimizes the economic cost of the travel route.
-
-\subsection{Machine Learning Methods}
-
-Traditional methods based on transportation networks are limited by the quality of the static data. With the development of urban computing, researchers have proposed numerous methods based on machine learning to solve this problem. These methods use large data volumes to extract valuable information that could not be obtained by traditional methods. In this subsection, we discuss the machine learning methods used in route recommendation.
-
-\subsubsection{Data Representation of Large Data Volumes}
-
-Large data volumes generated by urban citizens and their mobile devices provide abundant information that can be used to construct urban computing systems. In addition to the static data used in traditional methods, these large data volumes include real-time data, such as traffic flow, check-in information, and public transit card swiping data. The data representation of large data volumes is flexible, and the data can be represented in different ways according to different scenarios.
-
-\subsubsection{Feature Extraction}
-
-Feature extraction aims to extract important features from large data volumes. The extracted features are used to construct models for route recommendation. Feature extraction methods can be divided into two types: explicit feature extraction and implicit feature extraction.
-
-Explicit feature extraction aims to extract important features from large data volumes manually. For example, the shortest path between two vertices in a transportation network can be considered an explicit feature. In route recommendation, traffic flow, check-in]]></description> <guid>https://arxiv.org/abs/2403.00284</guid> <pubDate>Mon, 04 Mar 2024 12:42:55 GMT</pubDate> </item> </channel> </rss>
+<rss version="2.0">
+  <channel>
+    <title>arXiv.org 上的 cs.AI 更新</title>
+    <link>http://rss.arxiv.org/rss/cs.AI</link>
+    <description>cs.AI 在 arXiv.org 电子印刷档案上更新。</description>
+    <lastBuildDate>Mon, 04 Mar 2024 05:00:00 GMT</lastBuildDate>
+    <item>
+      <title>影响强盗：选择手臂以塑造偏好</title>
+      <link>https://arxiv.org/abs/2403.00036</link>
+      <description><![CDATA[arXiv:2403.00036v1 公告类型：交叉
+摘要：我们考虑一种非固定的多臂老虎机，其中观察到的奖励会正向和负向强化群体偏好。该算法的目标是塑造人群偏好，以最大化偏好预定组的人群比例。对于二元意见的情况，考虑两种类型的意见动态——弹性递减（建模为球数量增加的波利亚瓮）和弹性恒定（使用选民模型）。对于第一种情况，我们描述了“探索然后提交”策略和“汤普森抽样”策略，并分析了每个策略的遗憾。然后我们展示这些算法及其分析适用于恒定弹性情况。我们还针对存在两种以上意见的情况描述了基于汤普森采样的算法。最后，我们讨论多个推荐系统的存在导致其流行度和舆论塑造目标之间的权衡的情况。]]></description>
+      <guid>https://arxiv.org/abs/2403.00036</guid>
+      <pubDate>Mon, 04 Mar 2024 12:51:23 GMT</pubDate>
+    </item>
+    <item>
+      <title>进化到未来：社交媒体上未见事件自适应假新闻检测</title>
+      <link>https://arxiv.org/abs/2403.00037</link>
+      <description><![CDATA[arXiv:2403.00037v1 公告类型：交叉
+摘要：随着社交媒体的快速发展，社交媒体上虚假新闻的广泛传播日益威胁着个人和社会。在社交媒体的动态格局中，假新闻检测旨在开发一种针对新闻报道过去事件进行训练的模型。其目标是预测和识别有关未来事件的假新闻，这些事件通常涉及与过去完全不同的主题。然而，现有的虚假检测方法缺乏鲁棒性，不能推广到未见过的事件。为了解决这个问题，我们引入了基于未来自适应事件的假新闻检测（FADE）框架。具体来说，我们通过自适应增强策略和图对比学习来训练目标预测器，以做出更稳健的整体预测。同时，我们独立训练仅事件预测器以获得有偏差的预测。然后，我们通过从目标预测器的输出中减去仅事件预测器的输出来获得最终预测，从而进一步减轻事件偏差。旨在模拟现实世界社交媒体条件的实验得出的令人鼓舞的结果验证了我们的方法与现有最先进方法相比的有效性。]]></description>
+      <guid>https://arxiv.org/abs/2403.00037</guid>
+      <pubDate>Mon, 04 Mar 2024 12:51:23 GMT</pubDate>
+    </item>
+    <item>
+      <title>FhGenie：用于企业和科学用途的定制、保密的聊天人工智能</title>
+      <link>https://arxiv.org/abs/2403.00039</link>
+      <description><![CDATA[arXiv:2403.00039v1 公告类型：交叉
+摘要：自从 OpenAI 发布 ChatGPT 以来，生成式 AI 受到了各个领域的广泛关注。这些基于人工智能的聊天系统有潜力提高知识工作者在不同任务中的生产力。然而，使用免费公共服务会带来数据泄露的风险，因为服务提供商可能会在没有明确界限的情况下利用用户输入进行额外的培训和优化。即使基于订阅的替代方案有时在处理用户数据方面也缺乏透明度。为了解决这些问题并使弗劳恩霍夫工作人员能够在确保机密性的同时利用这项技术，我们设计并开发了一种名为 FhGenie（精灵是乐于助人的精神）的定制聊天人工智能。发布后几天内，数千名弗劳恩霍夫员工开始使用这项服务。作为实施此类系统的先驱，许多其他组织也纷纷效仿。我们的解决方案建立在商业大语言模型 (LLM) 的基础上，我们已将其仔细集成到我们的系统中，以满足我们的特定要求和合规性限制，包括保密性和 GDPR。在本文中，我们分享了对 FhGenie 的架构考虑、设计、实现和后续更新的详细见解。此外，我们还讨论了挑战、观察结果以及从其有效使用中汲取的核心经验教训。]]></description>
+      <guid>https://arxiv.org/abs/2403.00039</guid>
+      <pubDate>Mon, 04 Mar 2024 12:51:23 GMT</pubDate>
+    </item>
+    <item>
+      <title>学习交付：蒙特利尔有能力车辆路线问题的基础模型</title>
+      <link>https://arxiv.org/abs/2403.00026</link>
+      <description><![CDATA[arXiv:2403.00026v1 公告类型：交叉
+摘要：在本文中，我们提出了蒙特利尔容量车辆路径问题 (FM-MCVRP) 的基础模型，这是一种新颖的深度学习 (DL) 模型，可近似容量车辆路径问题 (CVRP) 变体的高质量解决方案这是许多现实世界应用的特征。所谓的蒙特利尔容量车辆路由问题（MCVRP），首先由 Bengio 等人正式描述。 （2021），是在一个固定的有限图上定义的，类似于一个城市。每个 MCVRP 实例本质上是连接固定图中随机采样的节点子集的子图，这些节点代表给定日期的现实世界交付问题中的一组潜在地址。我们的工作利用这个问题结构将 MCVRP 构建为类似的自然语言处理 (NLP) 任务。具体来说，我们利用嵌入大型语言模型 (LLM) 框架中的 Transformer 架构，在通过算法获得的计算成本低廉、次优 MCVRP 解决方案上以监督方式训练我们的模型。通过全面的计算实验，我们表明 FM-MCVRP 可以产生比训练数据更好的 MCVRP 解决方案，并且可以推广到训练期间未见过的更大尺寸的问题实例。即使与最先进的启发式方法的近乎最佳解决方案相比，FM-MCVRP 也能产生具有竞争力的结果，尽管它是在较差的数据上进行训练的。例如，对于 400 个客户的问题，FM-MCVRP 解决方案的平均误差在基准的 2% 以内。我们的结果进一步表明，与文献中的先前工作不同，FM-MCVRP 是一个统一的模型，它在一系列问题实例大小和参数值（例如车辆容量）上表现一致且可靠。]]></description>
+      <guid>https://arxiv.org/abs/2403.00026</guid>
+      <pubDate>Mon, 04 Mar 2024 12:51:22 GMT</pubDate>
+    </item>
+    <item>
+      <title>GraphPub：高可用性的差分隐私图的生成</title>
+      <link>https://arxiv.org/abs/2403.00030</link>
+      <description><![CDATA[arXiv:2403.00030v1 公告类型：交叉
+摘要：近年来，随着图神经网络（GNN）的快速发展，越来越多的用于 GNN 任务的图数据集被发布。然而，当上游数据所有者发布图数据时，往往会存在许多隐私问题，因为许多现实世界的图数据包含诸如人的好友列表之类的敏感信息。差分隐私（DP）是保护隐私的常用方法，但由于图数据复杂的拓扑结构，在图上应用DP往往会影响GNN模型的消息传递和聚合，导致模型精度下降。在本文中，我们提出了一种新颖的图边缘保护框架——图发布者（GraphPub），它可以保护图拓扑，同时确保数据的可用性基本不变。通过逆向学习和编码器-解码器机制，我们搜索一些对节点特征聚合不会产生较大负面影响的虚假边，并用它们来替换一些真实边。修改后的图表将会被公布，这很难区分数据的真假。足够的实验证明，我们的框架以极低的隐私预算实现了接近原始图的模型精度。]]></description>
+      <guid>https://arxiv.org/abs/2403.00030</guid>
+      <pubDate>Mon, 04 Mar 2024 12:51:22 GMT</pubDate>
+    </item>
+    <item>
+      <title>引用时间：使用动态影响单事件嵌入模型对引文网络进行建模</title>
+      <link>https://arxiv.org/abs/2403.00032</link>
+      <description><![CDATA[arXiv:2403.00032v1 公告类型：交叉
+摘要：了解科学研究的结构和动态，即科学的科学（SciSci），已成为一个重要的研究领域，以解决迫在眉睫的问题，包括学者如何互动以推进科学发展、学科如何相互关联和发展以及如何量化和预测研究影响。 SciSci 研究的核心是对引文网络的分析。在这里，采用了两种著名的建模方法：一种是使用参数分布评估论文的引用影响动态，另一种是将引用网络嵌入到最佳的潜在空间中，以表征论文之间的静态关系（根据引用） 。有趣的是，引用网络是单事件动态网络的一个突出例子，即每个二元组仅具有单个事件（即引用时间点）的网络。我们目前提出了一种新颖的似然函数来表征此类单事件网络。利用这种可能性，我们提出了动态影响单事件嵌入模型（DISEE）。 \textsc{\modelabbrev} 模型根据潜在距离模型来表征科学相互作用，其中随机效应解释了引文异质性，而时变影响则使用现有的参数表示来表征，以评估动态影响。我们在几个真实的引文网络上强调了所提出的方法，发现 DISEE 很好地协调了静态潜在距离网络嵌入方法与经典的动态影响评估。]]></description>
+      <guid>https://arxiv.org/abs/2403.00032</guid>
+      <pubDate>Mon, 04 Mar 2024 12:51:22 GMT</pubDate>
+    </item>
+    <item>
+      <title>解释多目标特征关联</title>
+      <link>https://arxiv.org/abs/2403.00017</link>
+      <description><![CDATA[arXiv:2403.00017v1 公告类型：交叉
+摘要：了解多个特征如何关联以及如何对特定目标做出贡献与了解每个特征如何对特定结果做出贡献同样重要。预测中单个特征的可解释性可以通过多种方式处理；然而，在多目标预测中，很难获得特征值组合的可解释性。为了解决这个问题，我们提出了一种使用多标签的客观特定特征交互设计，以找到农业环境中特征的最佳组合。该设计的新颖之处之一是确定了一种将特征解释与全局敏感性分析相结合的方法，以确保多目标设置中的组合优化。我们在初步实验中证明，可以使用两个农业数据集找到特征值的近似组合来实现所需的结果：一个是收获前家禽养殖场针对多重耐药性的做法，另一个是收获后家禽养殖场的数据集针对食源性病原体的做法。在我们的组合优化方法中，同时考虑所有三种病原体，以考虑有利于不同类型病原体生长的条件之间的相互作用。这些结果表明，基于解释的方法能够识别特征组合，以比基线更少的迭代次数减少病原体的存在。]]></description>
+      <guid>https://arxiv.org/abs/2403.00017</guid>
+      <pubDate>Mon, 04 Mar 2024 12:51:21 GMT</pubDate>
+    </item>
+    <item>
+      <title>具有基于属性的差分隐私的可审计的基于同态的去中心化协作人工智能</title>
+      <link>https://arxiv.org/abs/2403.00023</link>
+      <description><![CDATA[arXiv:2403.00023v1 公告类型：交叉
+摘要：近年来，联邦学习（FL）的概念引发了具有隐私保护的分布式人工智能（AI）的新范式。然而，由于可信第三方的要求，当前大多数 FL 系统都存在数据隐私问题。尽管之前的一些工作引入了差异隐私来保护数据，但它也可能会显着降低模型性能。为了解决这些问题，我们提出了一种新颖的去中心化协作人工智能框架，名为基于可审计同态的去中心化协作人工智能（AerisAI），通过同态加密和细粒度差分隐私来提高安全性。我们提出的 AerisAI 直接将加密参数与基于区块链的智能合约聚合，从而摆脱了对可信第三方的需求。我们还提出了一个全新的概念来消除差异隐私对模型性能的负面影响。此外，所提出的AerisAI还提供基于密文策略属性加密（CPABE）的广播感知组密钥管理，以实现基于不同服务级别协议的细粒度访问控制。我们对所提出的 AerisAI 进行了正式的理论分析，并与其他基线进行了功能比较。我们还对真实数据集进行了广泛的实验来评估所提出的方法。实验结果表明，我们提出的 AerisAI 显着优于其他最先进的基线。]]></description>
+      <guid>https://arxiv.org/abs/2403.00023</guid>
+      <pubDate>Mon, 04 Mar 2024 12:51:21 GMT</pubDate>
+    </item>
+    <item>
+      <title>论生成人工智能的挑战和机遇</title>
+      <link>https://arxiv.org/abs/2403.00025</link>
+      <description><![CDATA[arXiv:2403.00025v1 公告类型：交叉
+摘要：深度生成建模领域多年来持续快速发展。随着大量训练数据的出现，加上可扩展的无监督学习范式的进步，最近的大规模生成模型在合成高分辨率图像和文本以及视频和分子等结构化数据方面显示出巨大的前景。然而，我们认为当前的大规模生成人工智能模型并没有充分解决阻碍其跨领域广泛采用的几个基本问​​题。在这项工作中，我们的目标是确定现代生成人工智能范式中尚未解决的关键挑战，应解决这些挑战，以进一步增强其能力、多功能性和可靠性。通过识别这些挑战，我们的目标是为研究人员提供宝贵的见解，以探索富有成效的研究方向，从而促进更强大、更易于使用的生成人工智能解决方案的开发。]]></description>
+      <guid>https://arxiv.org/abs/2403.00025</guid>
+      <pubDate>Mon, 04 Mar 2024 12:51:21 GMT</pubDate>
+    </item>
+    <item>
+      <title>引入基于用户反馈的反事实解释（UFCE）</title>
+      <link>https://arxiv.org/abs/2403.00011</link>
+      <description><![CDATA[arXiv:2403.00011v1 公告类型：交叉
+摘要：机器学习模型广泛应用于实际应用中。然而，它们的复杂性使得解释其决策背后的基本原理常常具有挑战性。反事实解释 (CE) 已成为在可解释人工智能 (XAI) 中生成可理解解释的可行解决方案。 CE 向用户提供可操作的信息，说明如何通过对输入进行最少的修改来实现所需的结果。然而，当前的CE算法在优化更改以扭转不期望的结果时通常在整个特征空间内运行，忽略了对结果的关键贡献者的识别并忽视了建议更改的实用性。在这项研究中，我们引入了一种新颖的方法，称为基于用户反馈的反事实解释（UFCE），它解决了这些局限性，旨在增强对所提供解释的信心。 UFCE 允许包含用户约束，以确定可操作功能子集中的最小修改，同时考虑功能依赖性，并使用基准评估指标评估建议更改的实用性。我们用五个数据集进行了三个实验，证明 UFCE 在 \textit{proximity}、\textit{sparsity} 和 \textit{feasibility} 方面优于两种著名的 CE 方法。报告的结果表明，用户约束会影响可行 CE 的生成。]]></description>
+      <guid>https://arxiv.org/abs/2403.00011</guid>
+      <pubDate>Mon, 04 Mar 2024 12:51:20 GMT</pubDate>
+    </item>
+    <item>
+      <title>GIN-SD：通过位置编码和注意力融合在不完整节点图中进行源检测</title>
+      <link>https://arxiv.org/abs/2403.00014</link>
+      <description><![CDATA[arXiv:2403.00014v1 公告类型：交叉
+摘要：图中的源检测在谣言源识别领域表现出了强大的功效。尽管最近的解决方案通过利用深度神经网络增强了性能，但它们通常需要完整的用户数据。在本文中，我们解决了一个更具挑战性的任务，即不完整用户数据的谣言源检测，并提出了一种新颖的框架，即通过位置编码和注意力融合在不完整节点图中进行源检测（GIN-SD）来应对这一挑战。具体来说，我们的方法利用位置嵌入模块来区分不完整的节点，并采用自注意力机制来关注具有更大信息传输能力的节点。为了减轻源节点和非源节点数量差异造成的预测偏差，我们还引入了类平衡机制。大量实验验证了 GIN-SD 的有效性及其相对最先进方法的优越性。]]></description>
+      <guid>https://arxiv.org/abs/2403.00014</guid>
+      <pubDate>Mon, 04 Mar 2024 12:51:20 GMT</pubDate>
+    </item>
+    <item>
+      <title>面向目标的组合优化的深度敏感性分析</title>
+      <link>https://arxiv.org/abs/2403.00016</link>
+      <description><![CDATA[arXiv:2403.00016v1 公告类型：交叉
+摘要：病原体控制是现代家禽养殖的一个重要方面，为公众健康和生产力提供重要益处。有效的家禽管理措施可降低家禽群中的病原体水平，通过降低食源性疾病的风险来促进食品安全。它们还通过预防可迅速传播并影响鸡群生长、产蛋和整体健康的传染病来支持动物健康和福利。这项研究将寻找最佳管理实践作为一个组合优化问题，以最大限度地减少多种病原体的存在。具体来说，我们将管理设置的各种可能组合建模为解决方案空间，可以有效地探索该解决方案空间，以确定最佳地降低病原体水平的配置。该设计采用了基于神经网络反馈的方法，该方法将特征解释与全局敏感性分析相结合，以确保多目标设置中的组合优化。当应用于两个现实世界的农业数据集时，我们的初步实验取得了有希望的结果。虽然仍需要进一步验证，但这些早期的实验结果证明了该模型有可能获得有针对性的特征相互作用，从而在不同的现实世界约束下自适应地优化病原体控制。]]></description>
+      <guid>https://arxiv.org/abs/2403.00016</guid>
+      <pubDate>Mon, 04 Mar 2024 12:51:20 GMT</pubDate>
+    </item>
+    <item>
+      <title>了解你的例外：走向知识表示中的例外本体</title>
+      <link>https://arxiv.org/abs/2403.00685</link>
+      <description><![CDATA[arXiv:2403.00685v1 公告类型：新
+摘要： 可废推理是一种某些概括不一定在所有情况下都有效的推理，即一般性结论在某些情况下可能会失败。人们已经开发出各种形式主义来模拟这种推理，这是常识背景的特征。然而，对于建模者来说，从本体论的角度来看，从这些系统中选择一个更适合其领域的系统并不容易。在本文中，我们首先提出了一个基于例外性和可废止性概念的框架，以便能够比较形式主义并揭示其本体论承诺。然后，我们应用这个框架来比较四个系统，从本体论的角度展示可能出现的差异。]]></description>
+      <guid>https://arxiv.org/abs/2403.00685</guid>
+      <pubDate>Mon, 04 Mar 2024 12:51:19 GMT</pubDate>
+    </item>
+    <item>
+      <title>与 LLM 一起玩 NetHack：作为零样本代理的潜力和局限性</title>
+      <link>https://arxiv.org/abs/2403.00690</link>
+      <description><![CDATA[arXiv:2403.00690v1 公告类型：新
+摘要：大型语言模型（LLM）作为零样本游戏代理的高级规划器已经取得了巨大成功。然而，这些代理主要在 Minecraft 上进行评估，其中长期规划相对简单。相比之下，在动态机器人环境中测试的代理面临着局限性，因为环境过于简单，只有很少的对象和交互。为了填补文献中的这一空白，我们推出了 NetPlay，这是第一个由 LLM 驱动的零射击代理，适用于具有挑战性的 Roguelike NetHack。 NetHack 是一个特别具有挑战性的环境，因为它具有多样化的物品和怪物、复杂的交互以及多种死亡方式。
+  NetPlay 使用专为动态机器人环境设计的架构，并针对 NetHack 进行了修改。与以前的方法一样，它促使法学硕士从预定义的技能中进行选择，并跟踪过去的互动以增强决策能力。鉴于 NetHack 的不可预测性，NetPlay 会检测重要的游戏事件来中断正在运行的技能，使其能够对不可预见的情况做出反应。虽然 NetPlay 在与 NetHack 机制交互方面表现出相当大的灵活性和熟练程度，但它仍面临任务描述不明确和缺乏明确反馈的问题。我们的研究结果表明，NetPlay 在提供详细的上下文信息时表现最佳，这表明动态方法为 NetHack 等复杂游戏提供上下文信息的必要性。]]></description>
+      <guid>https://arxiv.org/abs/2403.00690</guid>
+      <pubDate>Mon, 04 Mar 2024 12:51:19 GMT</pubDate>
+    </item>
+    <item>
+      <title>META-GUI：迈向移动 GUI 上的多模式会话代理</title>
+      <link>https://arxiv.org/abs/2205.11029</link>
+      <description><![CDATA[arXiv:2205.11029v2 公告类型：交叉
+摘要：面向任务的对话（TOD）系统已被手机智能助手广泛用于完成日历安排或酒店预订等任务。当前的TOD系统通常专注于多轮文本/语音交互，然后它们会调用为TOD设计的后端API来执行任务。然而，这种基于API的架构极大地限制了智能助手的信息搜索能力，如果没有TOD专用的API或任务过于复杂而无法通过提供的API执行，甚至可能导致任务失败。在本文中，我们提出了一种新的TOD架构：基于GUI的面向任务的对话系统（GUI-TOD）。 GUI-TOD系统可以直接在真实的APP上进行GUI操作并执行任务，而无需调用TOD特定的后端API。此外，我们还发布了 META-GUI，这是一个用于在移动 GUI 上训练多模态转换代理的数据集。我们还提出了一种多模型动作预测和响应模型，该模型在 META-GUI 上显示出有希望的结果。数据集、代码和排行榜都是公开的。]]></description>
+      <guid>https://arxiv.org/abs/2205.11029</guid>
+      <pubDate>Mon, 04 Mar 2024 12:51:19 GMT</pubDate>
+    </item>
+    <item>
+      <title>深度强化学习解决管理问题：迈向大管理模式</title>
+      <link>https://arxiv.org/abs/2403.00318</link>
+      <description><![CDATA[arXiv:2403.00318v1 公告类型：新
+摘要：我们引入了深度强化学习（DRL）方法来解决库存管理、动态定价和推荐等管理问题。这种 DRL 方法有可能产生基于某些变压器神经网络结构的大型管理模型，从而产生用于各种管理任务的人工智能范式。传统方法在解决复杂的现实问题时存在局限性，我们演示了 DRL 如何超越现有的启发式方法来解决管理任务。我们的目标是在统一的框架中解决问题，考虑不同任务之间的相互联系。我们方法的核心是开发一个基础决策模型，通过生成决策来协调不同领域的决策。我们的实验结果证实了我们基于 DRL 的框架在复杂和动态的业务环境中的有效性。这项工作为 DRL 在管理问题中的应用开辟了新的途径，凸显了其彻底改变传统企业管理的潜力。]]></description>
+      <guid>https://arxiv.org/abs/2403.00318</guid>
+      <pubDate>Mon, 04 Mar 2024 12:51:18 GMT</pubDate>
+    </item>
+    <item>
+      <title>神经符号系统的软化符号接地</title>
+      <link>https://arxiv.org/abs/2403.00323</link>
+      <description><![CDATA[arXiv:2403.00323v1 公告类型：新
+摘要：神经符号学习通常由两个独立的世界组成，即神经网络训练和符号约束求解，其成功取决于符号基础，这是人工智能中的一个基本问题。本文提出了一种新颖的、软化的符号基础过程，弥合了两个世界之间的差距，并产生了一个有效且高效的神经符号学习框架。从技术上讲，该框架具有以下特点：(1) 将符号解状态建模为玻尔兹曼分布，这避免了昂贵的状态搜索，并促进网络训练和符号推理之间互惠互利的交互；(2) 利用投影和 SMT 求解器的新 MCMC 技术，可以有效地实现来自断开的符号解空间的样本； (3) 一种退火机制，可以避免 % 陷入次优符号接地。对三个代表性神经符号学习任务的实验表明，由于其卓越的符号基础能力，我们的框架成功解决了远远超出现有提案前沿的问题。]]></description>
+      <guid>https://arxiv.org/abs/2403.00323</guid>
+      <pubDate>Mon, 04 Mar 2024 12:51:18 GMT</pubDate>
+    </item>
+    <item>
+      <title>有逻辑约束但没有捷径满足的学习</title>
+      <link>https://arxiv.org/abs/2403.00329</link>
+      <description><![CDATA[arXiv:2403.00329v1 公告类型：新
+摘要：最近神经符号学习的研究探索了通过将逻辑约束编码为附加损失函数将逻辑知识整合到深度学习中。然而，现有的方法往往通过捷径来空洞地满足逻辑约束，未能充分利用知识。在本文中，我们提出了一个具有逻辑约束的新学习框架。具体来说，我们通过引入逻辑连接词的双变量来解决快捷满足问题，编码如何满足约束。我们进一步提出了一个变分框架，其中编码的逻辑约束表示为与模型的原始训练损失兼容的分布损失。理论分析表明该方法具有显着的特性，实验评估表明其在模型泛化性和约束满足方面均具有优越的性能。]]></description>
+      <guid>https://arxiv.org/abs/2403.00329</guid>
+      <pubDate>Mon, 04 Mar 2024 12:51:18 GMT</pubDate>
+    </item>
+    <item>
+      <title>路线推荐调查：方法、应用和机会</title>
+      <link>https://arxiv.org/abs/2403.00284</link>
+      <description><![CDATA[arXiv:2403.00284v1 公告类型：新
+摘要：当今，先进的信息技术在全市范围内部署，大数据量和强大的计算资源正在推动现代城市发展的智能化。作为智能交通的重要组成部分，路线推荐及其应用的广泛应用，直接影响着市民的出行习惯。基于大数据（可能是多模式）开发智能高效的出行路线已成为路线推荐研究的核心挑战。我们的调查对基于城市计算的路线推荐工作进行了全面回顾。它由以下三个部分组成：1）方法论。我们对大量的传统机器学习和现代深度学习方法进行了分类。此外，我们还讨论了它们的历史关系并揭示了前沿进展。 2) 应用方面。我们提出了许多与城市计算场景中的路线推荐相关的新颖应用。 3）我们讨论了当前的问题和挑战，并展望了几个有前途的研究方向。我们相信，本次调查可以帮助相关研究人员快速熟悉路线推荐研究的现状，进而引导他们未来的研究趋势。]]></description>
+      <guid>https://arxiv.org/abs/2403.00284</guid>
+      <pubDate>Mon, 04 Mar 2024 12:51:17 GMT</pubDate>
+    </item>
+    <item>
+      <title>XAI 中的 X：呼吁可理解的 AI</title>
+      <link>https://arxiv.org/abs/2403.00315</link>
+      <description><![CDATA[arXiv:2403.00315v1 公告类型：新
+摘要：在最近的一篇论文中，伊拉斯谟等人。 （2021）捍卫了这样一种观点，即可解释人工智能（XAI）中“解释”一词的歧义可以通过采用科学哲学中四种不同的现有解释解释中的任何一种来解决：演绎法理、归纳统计、因果机械、和新机制模型。在本章中，我表明作者声称这些解释可以像应用于任何自然现象一样应用于深度神经网络，这是错误的。我还提供了一个更普遍的论点，说明为什么 XAI 文献中目前使用的可解释性概念与传统的科学解释概念几乎没有相似之处。使用“可理解的人工智能”标签来避免围绕 XAI 的目标和目的的混乱会更有效。在本章的后半部分，我主张一种实用的理解概念，它更适合在 XAI 中发挥解释的核心作用。按照 Kuorikoski 和 Ylikoski（2015）的观点，理解机器学习系统的满足条件是根据代理成功使用该系统并从中得出正确的推论来充实的。]]></description>
+      <guid>https://arxiv.org/abs/2403.00315</guid>
+      <pubDate>Mon, 04 Mar 2024 12:51:17 GMT</pubDate>
+    </item>
+    </channel>
+</rss>
