@@ -12,7 +12,8 @@ import requests
 import openai
 
 # 设置OpenAI API密钥
-openai.api_key = "YOUR_API_KEY"
+# openai.api_key = "YOUR_API_KEY"
+openai.api_key = os.getenv('OPENAI_API_KEY')
 
 def get_md5_value(src):
     m = hashlib.md5()
