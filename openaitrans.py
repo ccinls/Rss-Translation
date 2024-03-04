@@ -10,11 +10,13 @@ from urllib.parse import urlparse
 from bs4 import BeautifulSoup
 from jinja2 import Template
 import requests
-import openai
+from openai import OpenAI
 
 # 设置OpenAI API密钥
 # openai.api_key = "YOUR_API_KEY"
-openai.api_key = os.getenv('OPENAI_API_KEY')
+client = OpenAI(
+  api_key=os.environ['OPENAI_API_KEY'],  # this is also the default, it can be omitted
+)
 
 def get_md5_value(src):
     m = hashlib.md5()
@@ -40,7 +42,7 @@ class OpenAITran:
         if content in self.translation_cache:
             return self.translation_cache[content]
 
-        response = openai.Completion.create(
+        response = client.Completion.create(
             model="gpt-3.5-turbo",
             prompt=content,
             max_tokens=2000,
