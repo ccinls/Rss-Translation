@@ -44,7 +44,7 @@ jobs:
         env:
           OPENAI_API_KEY: ${{secrets.OPENAI_KEY}}
         run: |
-          python openaitrans.py
+          python Bingtrans.py
           ls -al rss/
              
       - name: Push changes to remote repository
