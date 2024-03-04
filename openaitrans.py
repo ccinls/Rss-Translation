@@ -43,7 +43,7 @@ class OpenAITran:
             return self.translation_cache[content]
 
         response = client.completions.create(
-            model="gpt-3.5-turbo",
+            model="gpt-3.5-turbo-instruct",
             prompt=content,
             max_tokens=2000,
             temperature=0.7,
