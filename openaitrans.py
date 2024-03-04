@@ -42,7 +42,7 @@ class OpenAITran:
         if content in self.translation_cache:
             return self.translation_cache[content]
 
-        response = client.Completion.create(
+        response = client.completions.create(
             model="gpt-3.5-turbo",
             prompt=content,
             max_tokens=2000,
