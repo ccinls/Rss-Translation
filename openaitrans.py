@@ -6,6 +6,7 @@ import datetime
 import time
 import feedparser
 from urllib import parse
+from urllib.parse import urlparse
 from bs4 import BeautifulSoup
 from jinja2 import Template
 import requests
