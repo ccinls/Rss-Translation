@@ -11,4 +11,4 @@
  📢查看[ 已翻译的订阅源列表 ](https://tjsky.github.io/Rss-Translation) 修改自[ rss-translate ](https://github.com/rcy1314/Rss-Translation)
 
 ## 已转换翻译源
- - source001 [http://arxiv.org/rss/cs.AI](http://arxiv.org/rss/cs.AI) -> [arXiv AI](rss/arXiv%20AI.xml)
+ - source001 http://arxiv.org/rss/cs.AI -> arXiv AI
