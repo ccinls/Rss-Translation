@@ -40,8 +40,10 @@ jobs:
           pip install --upgrade feedparser
           pip install requests
       - name: ls_show
+        env:
+          OPENAI_API_KEY: ${{secrets.OPENAI_KEY}}
         run: |
-          python Bingtrans.py
+          python openaitrans.py
           ls -al rss/
              
       - name: Push changes to remote repository
