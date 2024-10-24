@@ -97,7 +97,7 @@
     <item>
       <title>LLMScan：用于 LLM 不当行为检测的因果扫描</title>
       <link>https://arxiv.org/abs/2410.16638</link>
-      <description><![CDATA[arXiv:2410.16638v1 公告类型：新 
+      <description><![CDATA[arXiv:2410.16638v2 公告类型：新 
 摘要：尽管大型语言模型 (LLM) 在各个领域都取得了成功，但它们产生不真实、有偏见和有害反应的可能性构成了重大风险，尤其是在关键应用中。这凸显了对系统方法来检测和防止此类不当行为的迫切需求。虽然现有方法针对特定问题，例如有害反应，但这项工作引入了 LLMScan，这是一种基于因果关系分析的创新 LLM 监控技术，可提供全面的解决方案。LLMScan 通过因果推理的视角系统地监控 LLM 的内部运作，前提是 LLM 的“大脑”在行为不当时会表现出不同的行为。通过分析 LLM 的输入标记和转换器层的因果贡献，LLMScan 可以有效地检测不当行为。针对各种任务和模型进行的大量实验揭示了正常行为和不当行为之间的因果分布的明显区别，从而使得能够开发用于各种不当行为检测任务的准确、轻量级检测器。]]></description>
       <guid>https://arxiv.org/abs/2410.16638</guid>
       <pubDate>Wed, 23 Oct 2024 04:00:00 GMT</pubDate>
@@ -129,7 +129,7 @@
     <item>
       <title>AskBeacon——使用自然语言进行基因组数据交换和分析</title>
       <link>https://arxiv.org/abs/2410.16700</link>
-      <description><![CDATA[arXiv:2410.16700v1 公告类型：新
+      <description><![CDATA[arXiv:2410.16700v2 公告类型：新
 摘要：通过消除技术障碍，使临床医生和研究人员能够直接与全球基因组数据资源互动，这对于医学基因组学至关重要。AskBeacon 使大型语言模型能够通过 GA4GH Beacon 协议应用于安全共享的群组。只需“询问”Beacon，即可获得、分析并准备发表可行的见解。]]></description>
       <guid>https://arxiv.org/abs/2410.16700</guid>
       <pubDate>Wed, 23 Oct 2024 04:00:00 GMT</pubDate>
