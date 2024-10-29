@@ -81,7 +81,7 @@
       <title>设计具有个性的 LLM 智能体：一种心理测量方法</title>
       <link>https://arxiv.org/abs/2410.19238</link>
       <description><![CDATA[arXiv:2410.19238v1 公告类型：新
-摘要：本研究介绍了一种新方法，使用大五人格框架为基于大型语言模型的代理（代理）分配可量化、可控制和心理测量验证的个性。它试图克服人类受试者研究的限制，提出代理作为社会科学研究的可访问工具。通过一系列四项研究，本研究证明了为代理分配心理测量有效的个性特征的可行性，使它们能够复制复杂的类人行为。第一项研究在 LLM 的语义空间内建立了对个性构造和个性测试的理解。随后的两项研究——使用经验和模拟数据——说明了创建代理的过程，并通过显示人类和代理对个性测试的答案之间的高度对应性来验证结果。最后的研究通过使用代理来复制已知的人类性格特征和决策行为在涉及风险承担和道德困境的场景中的相关性，进一步证实了这种对应关系，从而验证了心理测量方法设计代理的有效性及其在社会和行为研究中的适用性。]]></description>
+摘要：本研究介绍了一种新方法，使用大五人格框架为基于大型语言模型的代理（代理）分配可量化、可控制和心理测量验证的个性。它试图克服人类受试者研究的限制，提出代理作为社会科学研究的可访问工具。通过一系列四项研究，本研究证明了为代理分配心理测量有效的个性特征的可行性，使它们能够复制复杂的类似人类的行为。第一项研究在 LLM 的语义空间内建立了对人格结构和人格测试的理解。随后的两项研究——使用经验和模拟数据——说明了创建代理的过程，并通过显示人类和代理对人格测试的答案之间的高度对应性来验证结果。最后的研究通过使用代理来复制已知的人类性格特征和决策行为在涉及风险承担和道德困境的场景中的相关性，进一步证实了这种对应关系，从而验证了心理测量方法设计代理的有效性及其在社会和行为研究中的适用性。]]></description>
       <guid>https://arxiv.org/abs/2410.19238</guid>
       <pubDate>Mon, 28 Oct 2024 04:00:00 GMT</pubDate>
     </item>
@@ -105,7 +105,7 @@
       <title>LArctan-SKAN：使用可学习三角函数的简单高效的单参数 Kolmogorov-Arnold 网络</title>
       <link>https://arxiv.org/abs/2410.19360</link>
       <description><![CDATA[arXiv:2410.19360v1 公告类型：新
-摘要：本文提出了一种利用由三角函数构造的单参数函数 (SFunc) 设计单参数 Kolmogorov-Arnold 网络 (SKAN) 的新方法。开发了三种新的 SKAN 变体：LSin-SKAN、LCos-SKAN 和 LArctan-SKAN。在 MNIST 数据集上的实验验证表明，LArctan-SKAN 在准确性和计算效率方面都表现出色。具体而言，LArctan-SKAN 显著提高了现有模型的测试集准确性，优于所有纯 KAN 变体，包括 FourierKAN、LSS-SKAN 和 Spl-KAN。它在准确性上也超过了基于混合 MLP 的模型，例如 MLP+rKAN 和 MLP+fKAN。此外，LArctan-SKAN 表现出了显著的计算效率，与 MLP+rKAN 和 MLP+fKAN 相比，训练速度分别提升了 535.01% 和 49.55%。这些结果证实了利用三角函数构造的 SKAN 的有效性和潜力。实验代码可从 https://github.com/chikkkit/LArctan-SKAN 获取。]]></description>
+摘要：本文提出了一种设计单参数 Kolmogorov-Arnold 网络 (SKAN) 的新方法，该方法利用由三角函数构造的单参数函数 (SFunc)。开发了三种新的 SKAN 变体：LSin-SKAN、LCos-SKAN 和 LArctan-SKAN。在 MNIST 数据集上的实验验证表明，LArctan-SKAN 在准确性和计算效率方面都表现出色。具体而言，LArctan-SKAN 显著提高了现有模型的测试集准确性，优于所有纯 KAN 变体，包括 FourierKAN、LSS-SKAN 和 Spl-KAN。它在准确性方面也超过了基于混合 MLP 的模型，例如 MLP+rKAN 和 MLP+fKAN。此外，LArctan-SKAN 表现出了显著的计算效率，与 MLP+rKAN 和 MLP+fKAN 相比，训练速度分别提升了 535.01% 和 49.55%。这些结果证实了利用三角函数构造的 SKAN 的有效性和潜力。实验代码可从 https://github.com/chikkkit/LArctan-SKAN 获取。]]></description>
       <guid>https://arxiv.org/abs/2410.19360</guid>
       <pubDate>Mon, 28 Oct 2024 04:00:00 GMT</pubDate>
     </item>
