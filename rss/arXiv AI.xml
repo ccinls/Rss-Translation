@@ -24,8 +24,8 @@
     <item>
       <title>动态思想链：迈向自适应深度推理</title>
       <link>https://arxiv.org/abs/2502.10428</link>
-      <description><![CDATA[ARXIV：2502.10428V1公告类型：新 
-摘要：为了减少由计算冗余和延迟奖励分配引起的计算资源的成本和消耗，本研究提出了动态的思想链，并具有自适应的推理时间和步骤。研究人员使用仿真实验来模拟通过Python 3.13闲置与基于GPT的Python模拟器的整合。同时，研究人员使用DeepSeek R1作为对照组来测试和比较D-COT模拟器在处理MIT OpenCourseware的线性代数考试问题时的性能。实验结果表明，基于三个指标的长COT，D-COT比DeepSeek R1好：推理时间，COT长度（推理步骤）和令牌计数，这可以显着降低计算资源消耗。此外，这项研究在深度推理优化中具有潜在的价值，可以用作将来动态深层推理框架的参考。]]></description>
+      <description><![CDATA[ARXIV：2502.10428V2公告类型：新 
+摘要：为了减少由计算冗余和延迟奖励分配引起的计算资源的成本和消耗，本研究提出了具有自适应推理时间和步骤的动态思维链（D-COT）。研究人员使用仿真实验来模拟通过Python 3.13闲置与基于GPT的Python模拟器的整合。同时，研究人员使用DeepSeek R1作为对照组来测试和比较D-COT模拟器在处理MIT OpenCourseware的线性代数考试问题时的性能。实验结果表明，基于三个指标的长COT，D-COT比DeepSeek R1好：推理时间，COT长度（推理步骤）和令牌计数，这可以显着降低计算资源消耗。此外，这项研究在深度推理优化中具有潜在的价值，该优化被用作未来动态深度推理框架的参考。]]></description>
       <guid>https://arxiv.org/abs/2502.10428</guid>
       <pubDate>Tue, 18 Feb 2025 05:00:00 GMT</pubDate>
     </item>
@@ -145,7 +145,7 @@
     <item>
       <title>深度是您需要的吗？ LLMS中迭代推理的探索</title>
       <link>https://arxiv.org/abs/2502.10858</link>
-      <description><![CDATA[ARXIV：2502.10858V1公告类型：新 
+      <description><![CDATA[ARXIV：2502.10858V2公告类型：新 
 摘要：深层迭代链链（COT）推理使LLM可以通过逐步激活相关的预训练知识来解决复杂的任务。但是，它在确保不断改进和确定停止标准方面面临挑战。在本文中，我们研究了是否可以从初始推理路径中激活直接有助于解决给定问题的相关知识，从而规避迭代性改进的需求。我们的实验表明，提高初始推理路径的多样性可以实现可比性或优越的性能，这是我们称为\ textit {宽度推理}的概念。但是，现有的广度推理方法（例如自洽）提供了有限的多样性。为了解决这一限制，我们提出了一种简单而有效的方法，该方法通过将上下文探索与采样随机性减少结合来增强推理广度。广泛的实验表明，我们的方法明显优于深刻的迭代推理。我们的代码在https://github.com/zongqianwu/breadth中提供。]]></description>
       <guid>https://arxiv.org/abs/2502.10858</guid>
       <pubDate>Tue, 18 Feb 2025 05:00:00 GMT</pubDate>
