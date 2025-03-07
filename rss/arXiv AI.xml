@@ -9,7 +9,7 @@
       <title>LiteWebagent：用于基于VLM的Web-Agent应用程序的开源套件</title>
       <link>https://arxiv.org/abs/2503.02950</link>
       <description><![CDATA[ARXIV：2503.02950V1公告类型：新 
-摘要：我们介绍了LiteWebagent，这是一个用于基于VLM的Web代理应用程序的开源套件。我们的框架通过使用可生产的解决方案来解决Web代理生态系统中的关键差距，该解决方案结合了最小无服务器的后端配置，直观的用户和浏览器接口以及代理计划，内存和树搜索中的可扩展研究功能。对于Core LiteWebagent代理框架，我们使用递归功能调用实现了一个简单而有效的基线，从而提供了脱钩的动作生成和动作接地。此外，我们以模块化且可扩展的方式集成了高级研究组件，例如代理计划，代理工作流程记忆和树搜索。然后，我们将LiteWebagent代理框架与Frontend集成，并以两种格式作为部署系统：（1）基于Vercel的Web应用程序，该应用程序为用户提供代理控制的远程浏览器，（2）Chrome扩展利用LiteWeBagent的API通过CDP（Chrome Devtools Stromestions）通过Chrome browser（Chrome devtools Stromestions）来控制LiteWebagent的API。 LiteWebagent框架可在https://github.com/pathonai/litewebagent上获得，并在https://lite-web-agent.vercel.app/上部署了前端。]]></description>
+摘要：我们介绍了LiteWebagent，这是一个用于基于VLM的Web代理应用程序的开源套件。我们的框架通过使用可生产的解决方案来解决Web代理生态系统中的关键差距，该解决方案结合了最小无服务器的后端配置，直观的用户和浏览器接口以及代理计划，内存和树搜索中的可扩展研究功能。对于Core LiteWebagent代理框架，我们使用递归功能调用实现了一个简单而有效的基线，从而提供了脱钩的动作生成和动作接地。此外，我们以模块化且可扩展的方式集成了高级研究组件，例如代理计划，代理工作流程记忆和树搜索。然后，我们将LiteWebagent代理框架与Frontend集成，并以两种格式作为部署系统：（1）基于Vercel的Web应用程序，该应用程序为用户提供代理控制的远程浏览器，（2）Chrome扩展利用LiteWebagent的API通过CDP（Chrome Devtools Stromestions）通过Chrome browser（Chrome devtools Stromestions）。 LiteWebagent框架可在https://github.com/pathonai/litewebagent上获得，并在https://lite-web-agent.vercel.app/上部署了前端。]]></description>
       <guid>https://arxiv.org/abs/2503.02950</guid>
       <pubDate>Thu, 06 Mar 2025 05:00:00 GMT</pubDate>
     </item>
@@ -64,8 +64,8 @@
     <item>
       <title>统一思维模型：在LLM时代重新想象自主代理</title>
       <link>https://arxiv.org/abs/2503.03459</link>
-      <description><![CDATA[ARXIV：2503.03459V1公告类型：新 
-摘要：大型语言模型（LLM）最近表现出了跨领域，任务和语言（例如ChatGpt和GPT-4）的显着能力，恢复了具有人类认知能力的一般自主源的研究。类似人类的剂量的人类级别的语义理解和指导性的能力，这些能力与人类的构建能力相关，这些能力恰好属于LLM。根据LLM，理论基础仍然是一个具有挑战性的开放问题。在本文中，我们提出了一种新颖的理论认知结构，即统一思维模型（UMM），该模型（UMM）提供了指导，以促进具有人级认知能力的自主代理的快速创造。具体而言，我们的UMM始于全球工作空间理论，并进一步利用LLMS使代理具有各种认知能力，例如多模式感知，计划，推理，推理，工具使用，学习，记忆，记忆，反思和动机。然后，我们开发了一个代理构建引擎Mindos，该引擎允许用户快速创建域 - /特定于任务的自主代理，而无需任何编程工作。]]></description>
+      <description><![CDATA[ARXIV：2503.03459V2公告类型：新 
+摘要：大型语言模型（LLMS）最近表现出了跨领域，任务和语言（例如ChatGpt和GPT-4）的显着能力，从而恢复了具有类似人类认知能力的一般自治药物的研究。这样的人级代理需要语义理解和跟随教学能力，这恰好属于LLM的优势。尽管已经有几次基于LLM的人类代理的初步尝试，但理论基础仍然是一个具有挑战性的开放问题。在本文中，我们提出了一种新颖的理论认知结构，即统一思维模型（UMM），该模型（UMM）提供了指导，以促进具有人级认知能力的自主代理的快速创造。具体而言，我们的UMM始于全球工作空间理论，并进一步利用LLMS使代理具有各种认知能力，例如多模式感知，计划，推理，推理，工具使用，学习，记忆，记忆，反思和动机。然后，我们开发了一个代理构建引擎Mindos，该引擎允许用户快速创建域 - /特定于任务的自主代理，而无需任何编程工作。]]></description>
       <guid>https://arxiv.org/abs/2503.03459</guid>
       <pubDate>Thu, 06 Mar 2025 05:00:00 GMT</pubDate>
     </item>
@@ -129,7 +129,7 @@
       <title>预测相互依存的城市基础设施网络中的级联故障</title>
       <link>https://arxiv.org/abs/2503.02890</link>
       <description><![CDATA[ARXIV：2503.02890V1公告类型：交叉 
-摘要：级联故障（CF）需要通过基础架构网络扩散的组件分解，从而导致全系统崩溃。预测CFS对于基础设施稳定和城市功能至关重要。尽管对电力和道路网络等单个网络中的CF进行了广泛的研究，但各种基础设施之间的相互依赖性仍然被忽略，并且在复杂的发展中捕获基础结构CF Dynamics在复杂的演变中带来了挑战。为了解决这些差距，我们介绍了\ textbf {i} ntegrated \ textbf {i} nterDependent \ textbf {i} nfrastructure cf Model（$ i^3 $），旨在捕获CF内部和跨基础架构的CF动力学。 $ i^3 $使用双GAE，具有全局池进行基础结构动力学，以及用于基础结构相互作用的异质图。初始节点增强预训练策略可缓解GCN诱导的过度光滑。 Experiments demonstrate $I^3$ achieves a 31.94\% in terms of AUC, 18.03\% in terms of Precision, 29.17\% in terms of Recall, 22.73\% in terms of F1-score boost in predicting infrastructure failures, and a 28.52\% reduction in terms of RMSE for cascade volume forecasts compared to leading models.它准确地指出了互连和单数网络中的相变，从而在针对单数网络量身定制的模型中纠正了偏差。在https://github.com/tsinghua-fib-lab/icube上访问代码。]]></description>
+摘要：级联故障（CF）需要通过基础架构网络扩散的组件分解，从而导致全系统崩溃。预测CFS对于基础设施稳定和城市功能至关重要。尽管对电力和道路网络等单个网络中的CF进行了广泛的研究，但各种基础设施之间的相互依存仍然被忽略，并且在复杂的发展中捕获基础结构CF动态构成挑战。为了解决这些差距，我们介绍了\ textbf {i} ntegrated \ textbf {i} nterDependent \ textbf {i} nfrastructure cf Model（$ i^3 $），旨在捕获CF内部和跨基础架构的CF动力学。 $ i^3 $使用双GAE，具有全局池进行基础结构动力学，以及用于基础结构相互作用的异质图。初始节点增强预训练策略可缓解GCN诱导的过度光滑。 Experiments demonstrate $I^3$ achieves a 31.94\% in terms of AUC, 18.03\% in terms of Precision, 29.17\% in terms of Recall, 22.73\% in terms of F1-score boost in predicting infrastructure failures, and a 28.52\% reduction in terms of RMSE for cascade volume forecasts compared to leading models.它准确地指出了互连和单数网络中的相变，从而在针对单数网络量身定制的模型中纠正了偏差。在https://github.com/tsinghua-fib-lab/icube上访问代码。]]></description>
       <guid>https://arxiv.org/abs/2503.02890</guid>
       <pubDate>Thu, 06 Mar 2025 05:00:00 GMT</pubDate>
     </item>
@@ -145,7 +145,7 @@
       <title>剪贴剂：利用视觉语言模型在物体检测中进行稳健标签质量评估</title>
       <link>https://arxiv.org/abs/2503.02897</link>
       <description><![CDATA[ARXIV：2503.02897V1公告类型：交叉 
-摘要：高质量的注释对于对象检测模型至关重要，但是确保标签准确性 - 尤其是边界框 - 既具有挑战性又昂贵。本文介绍了剪贴画，这是一种新型的方法，它利用视觉模型自动评估边界框注释的准确性。通过调整剪辑（对比性语言图像的预训练）来评估类标签的正确性和边界框的空间精度，Clipgrader为对象检测标签提供了有效的解决方案。在带有人工干扰边界框的修改对象检测数据集上测试，夹板以1.8％的假阳性速率在可可的可可速度上达到91％的精度。此外，当仅10％的可可数据训练时，它保持87％的准确性，误报率为2.1％。剪贴剂还有效地扩展到较大的数据集，例如LVI，在1,203个类别中达到79％的准确性。我们的实验表明，夹具在现有的可可注释中识别错误的能力，突出了其数据集细化的潜力。当集成到半监督对象检测（SSOD）模型中时，夹板很容易改善伪标签质量，从而帮助在整个训练过程中实现更高的MAP（平均平均精度）。因此，夹具提供了可扩展的AI辅助工具，用于增强注释质量控制和验证大规模对象检测数据集中的注释。]]></description>
+摘要：高质量注释对于对象检测模型至关重要，但是确保标签准确性（尤其是边界框）仍然具有挑战性且昂贵。本文介绍了剪贴画，这是一种新型的方法，它利用视觉模型自动评估边界框注释的准确性。通过调整剪辑（对比性语言图像的预训练）来评估类标签的正确性和边界框的空间精度，Clipgrader为对象检测标签提供了有效的解决方案。在带有人工干扰边界框的修改对象检测数据集上测试，夹板以1.8％的假阳性速率在可可的可可速度上达到91％的精度。此外，当仅10％的可可数据训练时，它保持87％的准确性，误报率为2.1％。剪贴剂还有效地扩展到较大的数据集，例如LVI，在1,203个类别中达到79％的准确性。我们的实验表明，夹具在现有的可可注释中识别错误的能力，突出了其数据集细化的潜力。当集成到半监督对象检测（SSOD）模型中时，夹板很容易改善伪标签质量，从而帮助在整个训练过程中实现更高的MAP（平均平均精度）。因此，夹具提供了可扩展的AI辅助工具，用于增强注释质量控制和验证大规模对象检测数据集中的注释。]]></description>
       <guid>https://arxiv.org/abs/2503.02897</guid>
       <pubDate>Thu, 06 Mar 2025 05:00:00 GMT</pubDate>
     </item>
