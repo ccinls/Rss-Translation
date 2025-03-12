@@ -70,7 +70,7 @@
       <pubDate>Tue, 11 Mar 2025 04:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>普通话：ICU患者动态ir妄和昏迷的Experts框架：急性脑功能障碍预测模型的开发和验证</title>
+      <title>普通话：ICU患者动态ir妄和昏迷预测的Experts混合物框架：急性脑功能障碍预测模型的开发和验证</title>
       <link>https://arxiv.org/abs/2503.06059</link>
       <description><![CDATA[ARXIV：2503.06059V1公告类型：新 
 摘要：急性脑功能障碍（ABD）是一种常见的，严重的ICU并发症，表现为del妄或昏迷，导致停留时间长，死亡率增加和认知能力下降。传统的筛查工具（例如格拉斯哥昏迷量表（GCS），混乱评估方法（CAM）和里士满煽动 - 宣传量表（RASS）依靠间歇性评估，导致延迟和不一致。在这项研究中，我们提出了普通话（ICU患者动态ir妄和昏迷预测的Experts框架的混合物），这是一种15m参数的Expert the神经网络，以实时预测ICU患者的ABD。该模型使用多支分支的方法来说明当前的大脑状态，从而集成了ICU的时间和静态数据，以在接下来的12至72小时内预测大脑状态。在2008  -  2019年间，来自2家医院的92,734例患者（132,997次ICU入院）的数据培训了该模型，并在15例患者的11719例患者（14,519名ICU入院）的数据上进行了验证，并在15个医院和来自304名患者的数据（503个ICU入院）（503个ICU入院）的数据中进行了验证。使用了三个数据集：佛罗里达大学健康（UFH）数据集，电子ICU协作研究数据库（EICU）和重症监护（MIMIC）-IV数据集的医学信息集市。 MANDARIN significantly outperforms the baseline neurological assessment scores (GCS, CAM, and RASS) for delirium prediction in both external (AUROC 75.5% CI: 74.2%-76.8% vs 68.3% CI: 66.9%-69.5%) and prospective (AUROC 82.0% CI: 74.8%-89.2% vs 72.7% CI: 65.5%-81.0%) cohorts, as well as for coma prediction (external AUROC 87.3% CI: 85.9%-89.0% vs 72.8% CI: 70.6%-74.9%, and prospective AUROC 93.4% CI: 88.5%-97.9% vs 67.7% CI: 57.7%-76.8%) with a 12-hour lead 时间。该工具有可能通过不断监测ICU患者的大脑状态来帮助临床医生进行决策。]]></description>
