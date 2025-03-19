@@ -6,7 +6,7 @@
     <description>cs.ai在arxiv.org e-print档案中更新。</description>
     <lastBuildDate>Tue, 18 Mar 2025 04:00:00 GMT</lastBuildDate>
     <item>
-      <title>基于LLM的数据分析中洞察力生成的方法</title>
+      <title>基于LLM的数据分析中的洞察力生成方法</title>
       <link>https://arxiv.org/abs/2503.11664</link>
       <description><![CDATA[ARXIV：2503.11664V1公告类型：新 
 摘要：从数据库中生成洞察力和可行的信息对于数据分析至关重要。本文介绍了一种使用大语言模型（LLM）的新方法来自动生成文本见解。给定一个多桌数据库作为输入，我们的方法利用LLMS产生简洁的基于文本的见解，这些见解反映了表中有趣的模式。我们的框架包括一个假设生成器，以提出与域相关的问题，一个查询代理，通过针对数据库生成SQL查询来回答此类问题，以及一个摘要模块以口头表达洞察力。使用人类判断力和自动指标的混合模型评估了见解的正确性和主观见解。公共和企业数据库的实验结果表明，我们的方法比其他方法在保持正确性的同时产生的见解更多。]]></description>
